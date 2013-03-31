@@ -1,5 +1,5 @@
 ---
-title: 天行健君子以自强不息!
+title: 一见如故
 layout: page
 ---
 
