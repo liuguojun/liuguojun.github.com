@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://liugj.com
+url: http://www.liugj.com
 author: Guojun Liu
 pygments: true
 
