@@ -1,80 +1,86 @@
 ---
 layout: post
-title: (Òë) GoogleÖÚÉñ -- If Xerox PARC Invented the PC, Google Invented the Internet Part 1.
+title: (è¯‘) Googleä¼—ç¥ž -- If Xerox PARC Invented the PC, Google Invented the Internet Part 1.
 categories: [IT History]
 tags: [Google, Jeff Dean]
 ---
 
-×¢£º»¨¿ªÁËºÃ´óÁ¦Æø·­ÒëÁËÕâÆªÎÄÕÂ£¬ Ë®Æ½ÓÐÏÞºÜ¶àÓ¢ÓïÏ°Óï²»ÖªµÀ£¬ÓÐ´íÎóµÄµØ·½ÇëÁôÑÔÖ¸³ö£¬Ð»Ð»
+- åŽŸæ–‡[åœ°å€](http://www.wired.com/wiredenterprise/2012/08/google-as-xerox-parc/all/)
+ 
+- èŠ±äº†å¥½å¤§åŠ›æ°”ç¿»è¯‘äº†è¿™ç¯‡æ–‡ç« ï¼Œ æ°´å¹³æœ‰é™å¾ˆå¤šè‹±è¯­ä¹ è¯­ä¸çŸ¥é“è¯¥å¦‚ä½•ç¿»è¯‘ï¼Œæœ‰é”™è¯¯çš„åœ°æ–¹è¯·ç•™è¨€æŒ‡å‡ºï¼Œè°¢è°¢
+-  é¢˜ç›® Googleä¼—ç¥žæ˜¯æˆ‘è‡ªå·±å–å¾—(ä»¥å‰æœ‰æœ¬ä¹¦å«åšç¾Žå›½ä¼—ç¥ž...)
 
 
-Èç¹ûËµÊ©ÀÖÅÁ¿ËÑÐ¾¿ÖÐÐÄ·¢Ã÷ÁËPC£¬ ÄÇÃ´Google´´ÔìÁË»¥ÁªÍø
+## å¦‚æžœè¯´æ–½ä¹å¸•å…‹ç ”ç©¶ä¸­å¿ƒå‘æ˜Žäº†PCï¼Œ é‚£ä¹ˆGoogleåˆ›é€ äº†äº’è”ç½‘ ##
+
+
 
 ![](http://ww4.sinaimg.cn/large/a7480316jw1e39e2hsgyhj.jpg)
 
 
-¹ØÓÚJeff DeanµÄÕæÏà³öÏÖÔÚ2007ÄêµÄÓÞÈË½Ú
+å…³äºŽJeff Deançš„çœŸç›¸å‡ºçŽ°åœ¨2007å¹´çš„æ„šäººèŠ‚
 
-GoogleÄÚ²¿ÓÐÒ»¸öË½ÓÐµÄÍøÕ¾Ìá¹©ÁËÒ»ÏµÁÐµÄ¹ØÓÚJeff Dean---ÕâÎ»Google×îÔçµÄ¹ÍÔ±Ö®Ò»ÒÔ¼°Õâ¸öÍøÂç¾ÞÈËÎªÊ²Ã´±ÈÍøÉÏÆäËûµÄ»ú¹¹ÄÜ¹»³ÐÔØ¸ü¶àÁ÷Á¿µÄÔ­Òò---µÄÒ»Ð©ÊÂÇé¡£Õâ¸öÍøÕ¾Ö»ÏòGoogleÔ±¹¤¿ª·Å£¬µ«ÊÇËùÓÐÈË¶¼±»¹ÄÀøÏòÕâ¸öÍøÕ¾Ìí¼ÓËûÃÇÖªµÀµÄ¹ØÓÚJeff DeanµÄÊÂ¼£¡£ºÜ¶àÈË¶¼Ìá½»ÁËËûÃÇËùÖªµÀµÄ¡£
+  Googleå†…éƒ¨æœ‰ä¸€ä¸ªç§æœ‰çš„ç½‘ç«™æä¾›äº†ä¸€ç³»åˆ—çš„å…³äºŽJeff Dean --- è¿™ä½Googleæœ€æ—©çš„é›‡å‘˜ä¹‹ä¸€ä»¥åŠè¿™ä¸ªç½‘ç»œå·¨äººä¸ºä»€ä¹ˆæ¯”ç½‘ä¸Šå…¶ä»–çš„æœºæž„èƒ½å¤Ÿæ‰¿è½½æ›´å¤šæµé‡çš„åŽŸå› ---çš„ä¸€äº›äº‹æƒ…ã€‚è¿™ä¸ªç½‘ç«™åªå‘Googleå‘˜å·¥å¼€æ”¾ï¼Œä½†æ˜¯æ‰€æœ‰äººéƒ½è¢«é¼“åŠ±å‘è¿™ä¸ªç½‘ç«™æ·»åŠ ä»–ä»¬çŸ¥é“çš„å…³äºŽJeff Deançš„äº‹è¿¹ã€‚å¾ˆå¤šäººéƒ½æäº¤äº†ä»–ä»¬æ‰€çŸ¥é“çš„ã€‚
 
-¡°ÓÐÒ»´ÎÔÚ1ÃëÖÓÖ®ÄÚÑéÖ¤µÚ203¸öì³²¨ÄÇÆõÊýµÄ²âÊÔÖÐ£¬Jeff DeanÃ»ÓÐÍ¨¹ýÍ¼Áé²âÊÔ¡±£¬ ÓÐÒ»ÌõÐ´µ½
-¡°Jeff DeanÔÚÌá½»´úÂëÖ®Ç°±àÒë²¢ÔËÐÐÁËËûµÄ´úÂë¡±£¬ ÁíÒ»ÌõÐ´µ½£¬ ¡°µ«ÊÇÖ»ÊÇ¼ì²é±àÒëÆ÷ºÍCPUµÄbug¡±
-¡°¹âÔÚÕæ¿ÕÖÐµÄ´«²¥ËÙ¶ÈÔø¾­ÊÇ35Ó¢Àï/Ê±¡±£¬ ÁíÒ»ÌõÐ´µ½£¬ ¡°ÓÚÊÇJeff Dean»¨ÁËÒ»¸öÖÜÄ©À´ÓÅ»¯ÎïÀíÑ§¡°
+â€œæœ‰ä¸€æ¬¡åœ¨1ç§’é’Ÿä¹‹å†…éªŒè¯ç¬¬203ä¸ªæ–æ³¢é‚£å¥‘æ•°çš„æµ‹è¯•ä¸­ï¼ŒJeff Deanæ²¡æœ‰é€šè¿‡å›¾çµæµ‹è¯•â€ï¼Œ æœ‰ä¸€æ¡å†™åˆ°
 
-²»£¬ ÕâÐ©¡±ÕæÏà¡°²¢²»ÊÇÊÂÊµ¡£ µ«ÊÇËûÃÇÌýÉÏÈ¥ºÜÕæÊµ¡£ ÓÞÈË½ÚÔÚgogleÊÇÒ»¸öÉñÊ¥µÄ½ÚÈÕ£¬ ÏñËùÓÐµÄÓÞÈË½ÚÐ¦»°Ò»Ñù£¬²å¿Æ´òÚ»×ÜÊÇÎ§ÈÆ×ÅÊÂÊµÖÜÎ§¡£ Ò»¸ö½ÐKenton VardaµÄGoogleÔ±¹¤½¨Á¢ÁËÕâ¸öÍøÕ¾£¬playing off the satirical Chuck Norris facts that so often bounce around the net£¨ Õâ¾ä»°ÊµÔÚ²»ÖªµÀÕ¦·­Òë£©¡£ µ±Ëû°ÑÁ´½ÓÍ¨¹ýÓÊ¼þ·¢¸ø¹«Ë¾ÆäËûÈËµÄÊ±ºò£¬ËûÒþ²ØÁË×Ô¼ºµÄ×Ù¼£¡£µ«ÊÇÒ»»áËû¾ÍÊÕµ½ÁËJeff DeanµÄÌáÊ¾ÏûÏ¢£¬JeffÒÑ¾­´ÓGoogleµÄ·þÎñÆ÷ÈÕÖ¾ÀïÕÒµ½ÁËËûÁôÏÂµÄµç×Ó×ã¼££¬´Ó¶ø×·×Ùµ½Ëû¡£
+â€œJeff Deanåœ¨æäº¤ä»£ç ä¹‹å‰ç¼–è¯‘å¹¶è¿è¡Œäº†ä»–çš„ä»£ç â€ï¼Œ å¦ä¸€æ¡å†™åˆ°ï¼Œ â€œä½†æ˜¯åªæ˜¯æ£€æŸ¥ç¼–è¯‘å™¨å’ŒCPUçš„bugâ€œ
 
-ÔÚGoogleÄÚ²¿£¬Jeff Dean±»ÈÏÎªÊÇÍþÑÏ¡£ ÔÚ¹«Ë¾Íâ²¿£¬ ºÜÉÙÓÐÈËÌý¹ýËûµÄÃû×Ö¡£ µ«ÊÇËûÃÇÓ¦¸ÃÖªµÀ¡£ DeanÊÇGoogle¹¹½¨Æð»ù´¡ÈíÓ²¼þ¼Ü¹¹Ò»¸ö¹¤³ÌÊ¦Ð¡×éÒ»Ô±£¬ ÕâÐ©¼Ü¹¹Ê¹googleÎªwebÉÏÓÐÍ³ÖÎÁ¦µÄ¹«Ë¾£¬ ËûÃÇµÄ·¢Ã÷´´Ôì¿áËÆÍøÉÏÆäËûÈçÀ×¹á¶úµÄÃû×Ö
+â€œå…‰åœ¨çœŸç©ºä¸­çš„ä¼ æ’­é€Ÿåº¦æ›¾ç»æ˜¯35è‹±é‡Œ/æ—¶â€ï¼Œ å¦ä¸€æ¡å†™åˆ°ï¼Œ â€œäºŽæ˜¯Jeff DeanèŠ±äº†ä¸€ä¸ªå‘¨æœ«æ¥ä¼˜åŒ–ç‰©ç†å­¦â€œ
 
+  ä¸ï¼Œ è¿™äº›â€œçœŸç›¸â€æ¯”ä¸æ˜¯äº‹å®žã€‚ ä½†æ˜¯ä»–ä»¬å¬ä¸ŠåŽ»å¾ˆçœŸå®žã€‚ æ„šäººèŠ‚åœ¨gogleæ˜¯ä¸€ä¸ªç¥žåœ£çš„èŠ‚æ—¥ï¼Œ åƒæ‰€æœ‰çš„æ„šäººèŠ‚ç¬‘è¯ä¸€æ ·ï¼Œæ’ç§‘æ‰“è¯¨æ€»æ˜¯å›´ç»•ç€äº‹å®žå‘¨å›´ã€‚ ä¸€ä¸ªå«Kenton Vardaçš„Googleå‘˜å·¥å»ºç«‹äº†è¿™ä¸ªç½‘ç«™ï¼Œplaying off the satirical Chuck Norris facts that so often bounce around the netï¼ˆ è¿™å¥è¯å®žåœ¨ä¸çŸ¥é“å’‹ç¿»è¯‘ï¼‰ã€‚ å½“ä»–æŠŠé“¾æŽ¥é€šè¿‡é‚®ä»¶å‘ç»™å…¬å¸å…¶ä»–äººçš„æ—¶å€™ï¼Œä»–éšè—äº†è‡ªå·±çš„è¸ªè¿¹ã€‚ä½†æ˜¯ä¸€ä¼šä»–å°±æ”¶åˆ°äº†Jeff Deançš„æç¤ºæ¶ˆæ¯ï¼ŒJeffå·²ç»ä»ŽGoogleçš„æœåŠ¡å™¨æ—¥å¿—é‡Œæ‰¾åˆ°äº†ä»–ç•™ä¸‹çš„ç”µå­è¶³è¿¹ï¼Œä»Žè€Œè¿½è¸ªåˆ°ä»–ã€‚
 
-Ê±¹âÜóÜÛ£¬ÎÒÃÇÔÙÒ»´ÎµÄ»ØÒäÆðÊ©ÀÖ¹«Ë¾ÅÁ¿ËÑÐ¾¿ÖÐÐÄ£¨ÒÔÏÂÖ±½ÓÓÃ Xerox PARC£¬ ²»ÔÙ·­Òë£©¹è¹ÈÊµÑéÊÒÔÚPCµÄ½ø»¯Ê·ÉÏ·¢Ã÷ÁË¼¸ºõÃ¿Ò»¼þµÄÖ÷Òª¼¼ÊõµÄÍùÊÂ£¬´ÓÓÃ»§Í¼ÐÎ½çÃæ¡¢¼¤¹â´òÓ¡»úµ½ÒÔÌ«ÍøºÍÃæÏò¶ÔÏó±à³Ì¡£µ«ÊÇÓÉÓÚgoogleÈç´Ë½÷É÷Ð¡ÐÄ£¬ Æä×îÐÂµÄÊý¾ÝÖÐÐÄ¼¼ÊõÒ»Ö±ºÍ¾ºÕùÕß·Ö¿ª---Í¬Ê±Ò²ÒòÎªÏñJeff DeanÕâÑù¹¤³ÌÊ¦²¢²»ÊÇ×ÔÎÒ¿äÒ«µÄÈË ----  googleÔÚÏÖ´ú¼ÆËãÁìÓòµÄ»ù´¡¹¤×÷µÄÓ°Ïì²¢²»ÎªÈËËùÖª¡£Google¾ÍÊÇÔÆ¼ÆËãÊ±´úµÄ Xerox PARC
-
-¡±Ä³¶ÎÊ±¼ä£¬µ±±´¶ûÊµÑéÊÒºÍXerox PARCÕâÑùµÄµØ·½½«ÒªÃðÍöµÄÊ±ºò£¬googleºÜ´óÒ»²¿·ÖµÄ¹¤×÷¾ÍÊÇÕÐÀ¿ÕâÐ©ÊÀ½çÉÏ×î´ÏÃ÷µÄÑÐ¾¿ÈËÔ±¡°¡£ Mike Miller£¬Ò»Î»»ªÊ¢¶Ù´óÑ§Á£×ÓÎïÀíÑ§ºÏÆ¸½ÌÊÚ¼° Cloudant£¨Ò»¼ÒÖÂÁ¦ÓÚ¿ªÕ¹ÑÐ¾¿googleÌá³öµÄ¼¼ÊõµÄ¹«Ë¾£©µÄÊ×Ï¯¿ÆÑ§¼Ò¡£¡±Ëü²»½öÇÀ¶áËûÃÇµÄ¿ÆÑ§¼Ò£¬ ¶øÇÒÇÀ¶áÀµÒÔÉú´æµÄÉúÃüÖ®Ñª¡°
-
-ÕâÐ©googleµÄ¼¼Êõ²»ÊÇÄãÓÃË«ÊÖÄãÄÜhand×¡µÄ---ÉõÖÁÎÞ·¨×°½øÊé×À¡£ ËûÃÇ²¢²»ÊÇÔËÐÐÔÚÒ»²¿ÊÖ»ú»òÕßPCÉÏ¡£ ËûÃÇÔËÐÐÔÚÊý¾ÝÖÐÐÄÁ¬½ÓÆðÀ´µÄ»¥ÁªÍøÖÐ¡£
+  åœ¨Googleå†…éƒ¨ï¼ŒJeff Deanè¢«è®¤ä¸ºæ˜¯å¨ä¸¥çš„ã€‚ åœ¨å…¬å¸å¤–éƒ¨ï¼Œ å¾ˆå°‘æœ‰äººå¬è¿‡ä»–çš„åå­—ã€‚ ä½†æ˜¯ä»–ä»¬åº”è¯¥çŸ¥é“ã€‚ Deanæ˜¯Googleæž„å»ºèµ·åŸºç¡€è½¯ç¡¬ä»¶æž¶æž„ä¸€ä¸ªå·¥ç¨‹å¸ˆå°ç»„ä¸€å‘˜ï¼Œ è¿™äº›æž¶æž„ä½¿Googleä¸ºwebä¸Šæœ‰ç»Ÿæ²»åŠ›çš„å…¬å¸ï¼Œ ä»–ä»¬çš„å‘æ˜Žåˆ›é€ é…·ä¼¼ç½‘ä¸Šå…¶ä»–å¦‚é›·è´¯è€³çš„åå­—ã€‚
 
 
-ÕâÐ©¼¼Êõ°üÀ¨Ï¯¾íÈí¼þÆ½Ì¨µÄ±ÈÈç GoogleÎÄ¼þÏµÍ³£¬MapReduce£¬ Bigtable£¬ ÕâÐ©·¢Ã÷Í¨¹ý½«Ò»¸öÈÎÎñ·Ö½â³ÉÐ¡¿é£¬È»ºó·ÖÅäµ½ÉÏÇ§Ì¨»úÆ÷ÖÐÔËÐÐ£¨¾ÍÏñÒÏÈºÐ­Í¬¹¤×÷Ò»Ñù£©À´Çý¶¯´óÁ¿µÄÔÚÏßÓ¦ÓÃ¡£ Í¬Ê±ËûÃÇ²ÉÓÃÁËGoogle×îÐÂÉè¼ÆµÄÓÃÀ´¸úËûÃÇµÄÈí¼þÒ»Æð¹¤×÷µÄ·þÎñÆ÷£¬ÍøÂçÉè±¸£¬ Êý¾ÝÖÐÐÄ¡£ËûÃÇµÄÏë·¨ÊÇ½¨Á¢Ò»¸ö¿´ÆðÀ´¾ÍÏñµ¥Ì¨¼ÆËã»úµÄÊý¾Ý²Ö¿âÊ½µÄ¼ÆËãÉè±¸¡£ ¾ÍÏñÒÏÈº¹¤×÷ÆðÀ´ÏñÒ»¸öÕûÌå£¬googleµÄÊý¾ÝÖÐÐÄÒ²ÊÇÕâÑù
+  æ—¶å…‰èè‹’ï¼Œæˆ‘ä»¬å†ä¸€æ¬¡çš„[å›žå¿†](http://www.techspot.com/guides/477-xerox-parc-tech-contributions/)èµ·æ–½ä¹å…¬å¸å¸•å…‹ç ”ç©¶ä¸­å¿ƒï¼ˆä»¥ä¸‹ç›´æŽ¥ç”¨ Xerox PARCï¼Œ ä¸å†ç¿»è¯‘ï¼‰ç¡…è°·å®žéªŒå®¤åœ¨PCçš„è¿›åŒ–å²ä¸Šå‘æ˜Žäº†å‡ ä¹Žæ¯ä¸€ä»¶çš„ä¸»è¦æŠ€æœ¯çš„å¾€äº‹ï¼Œä»Žç”¨æˆ·å›¾å½¢ç•Œé¢ã€æ¿€å…‰æ‰“å°æœºåˆ°ä»¥å¤ªç½‘å’Œé¢å‘å¯¹è±¡ç¼–ç¨‹ã€‚ä½†æ˜¯ç”±äºŽgoogleå¦‚æ­¤è°¨æ…Žå°å¿ƒï¼Œ å…¶æœ€æ–°çš„æ•°æ®ä¸­å¿ƒæŠ€æœ¯ä¸€ç›´å’Œ[ç«žäº‰è€…åˆ†å¼€](http://www.wired.com/wiredenterprise/2012/03/google-miner-helmet/)---åŒæ—¶ä¹Ÿå› ä¸ºåƒJeff Deanè¿™æ ·å·¥ç¨‹å¸ˆå¹¶ä¸æ˜¯è‡ªæˆ‘å¤¸è€€çš„äºº ----  googleåœ¨çŽ°ä»£è®¡ç®—é¢†åŸŸçš„åŸºç¡€å·¥ä½œçš„å½±å“å¹¶ä¸ä¸ºäººæ‰€çŸ¥ã€‚Googleå°±æ˜¯äº‘è®¡ç®—æ—¶ä»£çš„ Xerox PARC
+
+  â€æŸæ®µæ—¶é—´ï¼Œå½“è´å°”å®žéªŒå®¤å’ŒXerox PARCè¿™æ ·çš„åœ°æ–¹å°†è¦ç­äº¡çš„æ—¶å€™ï¼Œgoogleå¾ˆå¤§ä¸€éƒ¨åˆ†çš„å·¥ä½œå°±æ˜¯æ‹›æ½è¿™äº›ä¸–ç•Œä¸Šæœ€èªæ˜Žçš„ç ”ç©¶äººå‘˜â€œã€‚ Mike Millerï¼Œä¸€ä½åŽç››é¡¿å¤§å­¦ç²’å­ç‰©ç†å­¦åˆè˜æ•™æŽˆåŠ [Cloudant](https://cloudant.com/)ï¼ˆä¸€å®¶è‡´åŠ›äºŽå¼€å±•ç ”ç©¶googleæå‡ºçš„æŠ€æœ¯çš„å…¬å¸ï¼‰çš„é¦–å¸­ç§‘å­¦å®¶ã€‚â€å®ƒä¸ä»…æŠ¢å¤ºä»–ä»¬çš„ç§‘å­¦å®¶ï¼Œ è€Œä¸”æŠ¢å¤ºèµ–ä»¥ç”Ÿå­˜çš„ç”Ÿå‘½ä¹‹è¡€â€œ
+
+  è¿™äº›googleçš„æŠ€æœ¯ä¸æ˜¯ä½ ç”¨åŒæ‰‹ä½ èƒ½handä½çš„---ç”šè‡³æ— æ³•è£…è¿›ä¹¦æ¡Œã€‚ ä»–ä»¬å¹¶ä¸æ˜¯è¿è¡Œåœ¨ä¸€éƒ¨æ‰‹æœºæˆ–è€…PCä¸Šã€‚ ä»–ä»¬è¿è¡Œåœ¨æ•°æ®ä¸­å¿ƒè¿žæŽ¥èµ·æ¥çš„äº’è”ç½‘ä¸­ã€‚
 
 
-µ±¹è¹È±»Éç»áÍøÂçºÍ´¥ÆÁÉè±¸µÄ±¬·¢Ëù¾ª¿ÖµÄÊ±ºò£¬GoogleÖØÔìÁËÕâÐ©ÏÖÏó±³ºóµÄÒ»Ð©»ù´¡µÄ¶«Î÷¡£ ºÜ¿ì£¬µ±ÆäËû»¥ÁªÍø¾ÞÍ·Åöµ½ÁËÔÚÏßÊý¾ÝµÄÑ©±ÀÊ½Ôö³¤µÄÊ±ºò£¬ËûÃÇ¿ªÊ¼¸úËæGoogleµÄ½Å²½¡£ µ±ÖØ¹¹µÄGoogleµÄËÑË÷ÒýÇæ£¬GFSºÍMapReduce£¬²úÉú³öÁËHadoop---Ò»¸öº£Á¿¼ÆËãÄÜÁ¦µÄÊý×Ö´¦ÀíÆ½Ì¨£¬¼¸ºõÊÇÏÖÔÚ×î³É¹¦µÄ¿ªÔ´ÏîÄ¿¡£ BigtableÔòÒý·¢ÁËNoSQLÔË¶¯£¬ ²úÉúÁË·þÎñÓÚWeb¹æÄ£´óÐ¡µÄÊý¾Ý¿âµÄ¼Ò×å±à¶Ó¡£ µ±È»ÔÚºÜ¶à·½Ãæ£¬GoogleÔÚÊý¾ÝÖÐÐÄÓ²¼þµÄ·¢Õ¹µÄºÜ¶à·½·¨½è¼øÁËÀ´×ÔFacebook, Amazon, MicrosoftÒÔ¼°ÆäËû¹«Ë¾µÄ¾­Ñé¡£
+  è¿™äº›æŠ€æœ¯åŒ…æ‹¬å¸­å·è½¯ä»¶å¹³å°çš„æ¯”å¦‚ [Googleæ–‡ä»¶ç³»ç»Ÿ](http://research.google.com/archive/gfs.html)ï¼Œ[MapReduce](http://research.google.com/archive/mapreduce.html)ï¼Œ [Bigtable](http://research.google.com/archive/bigtable.html)ï¼Œ è¿™äº›å‘æ˜Žé€šè¿‡å°†ä¸€ä¸ªä»»åŠ¡åˆ†è§£æˆå°å—ï¼Œç„¶åŽåˆ†é…åˆ°ä¸Šåƒå°æœºå™¨ä¸­è¿è¡Œï¼ˆå°±åƒèšç¾¤ååŒå·¥ä½œä¸€æ ·ï¼‰æ¥é©±åŠ¨å¤§é‡çš„åœ¨çº¿åº”ç”¨ã€‚ åŒæ—¶ä»–ä»¬é‡‡ç”¨äº†Googleæœ€æ–°è®¾è®¡çš„ç”¨æ¥è·Ÿä»–ä»¬çš„è½¯ä»¶ä¸€èµ·å·¥ä½œçš„æœåŠ¡å™¨ï¼Œç½‘ç»œè®¾å¤‡ï¼Œ æ•°æ®ä¸­å¿ƒã€‚ä»–ä»¬çš„æƒ³æ³•æ˜¯å»ºç«‹ä¸€ä¸ªçœ‹èµ·æ¥å°±åƒå•å°è®¡ç®—æœºçš„æ•°æ®ä»“åº“å¼çš„è®¡ç®—è®¾å¤‡ã€‚ å°±åƒèšç¾¤å·¥ä½œèµ·æ¥åƒä¸€ä¸ªæ•´ä½“ï¼Œgoogleçš„æ•°æ®ä¸­å¿ƒä¹Ÿæ˜¯è¿™æ ·
 
 
-Êµ»°Ëµ£¬GoogleµÄÓÅÊÆ½¨Á¢ÔÚÒ»Ð©À´×ÔºÜ¶à¹«Ë¾ºÍÑÐ¾¿»ú¹¹£¨±ÈÈçPARCºÍ±´¶ûÊµÑéÊÒ£©±»ÂñÃ»µÄ¼ÆËã»ú¿ÆÑ§¼ÒµÄÊýÊ®ÄêÀ´µÄ¹±Ï×¡£ ¸úGoogleÒ»Ñù£¬AmazonÒ²¶Ô»¥ÁªÍøµÄ»ù´¡ÓÐºÜ´óµÄÓ°Ïì---×îÏÔÖøµÄÊÇÍ¨¹ýÒ»ÆªÑÐ¾¿ÂÛÎÄ·¢±íÁËÒ»¸ö½Ð×öDynamoµÄÎÄ¼þÏµÍ³¡£ µ«ÊÇGoogleµÄÓ°Ïì¸ü¼ÓÉîÔ¶¡£
-
-GoogleºÍXerox PARCµÄÇø±ðÔÚÓÚ£¬GoogleµÄÓÅÊÆ´ó²¿·ÖÀ´Ô´ÓÚËüµÄ·¢Ã÷ÍùÍùÁìÏÈÓÚÊÀ½çÉÏÆäËû¹«Ë¾ÄÜ¸ÏµÃÉÏµÄ³Ì¶È¡£ÏñGFS£¬MapReduceÕâÑùµÄ¹¤¾ßÊ¹µÃ¹«Ë¾ÔÚ¾ºÕùÖÐ´¦ÓÚÁìÏÈ¡£ ÏÖÔÚ£¬Ëü´ó²¿·ÖÒÑ¾­Å×ÆúÁËÕâÐ©¹¤×÷£¬·¢Õ¹µ½ÐÂµÄÈíÓ²¼þÁìÓò¡£ ÓÖÒ»´Î£¬ÊÀ½çÉÏÆäËû¹«Ë¾¿ªÊ¼×·¸Ïgoogle
+  å½“ç¡…è°·è¢«ç¤¾ä¼šç½‘ç»œå’Œè§¦å±è®¾å¤‡çš„çˆ†å‘æ‰€æƒŠæçš„æ—¶å€™ï¼ŒGoogleé‡é€ äº†è¿™äº›çŽ°è±¡èƒŒåŽçš„ä¸€äº›åŸºç¡€çš„ä¸œè¥¿ã€‚ å¾ˆå¿«ï¼Œå½“å…¶ä»–äº’è”ç½‘å·¨å¤´ç¢°åˆ°äº†åœ¨çº¿æ•°æ®çš„é›ªå´©å¼å¢žé•¿çš„æ—¶å€™ï¼Œä»–ä»¬å¼€å§‹è·ŸéšGoogleçš„è„šæ­¥ã€‚ å½“é‡æž„çš„Googleçš„æœç´¢å¼•æ“Žï¼ŒGFSå’ŒMapReduceï¼Œäº§ç”Ÿå‡ºäº†[Hadoop](http://www.wired.com/wiredenterprise/2011/10/how-yahoo-spawned-hadoop/)---ä¸€ä¸ªæµ·é‡è®¡ç®—èƒ½åŠ›çš„æ•°å­—å¤„ç†å¹³å°ï¼Œå‡ ä¹Žæ˜¯çŽ°åœ¨æœ€æˆåŠŸçš„å¼€æºé¡¹ç›®ã€‚ Bigtableåˆ™å¼•å‘äº†NoSQLè¿åŠ¨ï¼Œ äº§ç”Ÿäº†æœåŠ¡äºŽWebè§„æ¨¡å¤§å°çš„æ•°æ®åº“çš„å®¶æ—ç¼–é˜Ÿã€‚ å½“ç„¶åœ¨å¾ˆå¤šæ–¹é¢ï¼ŒGoogleåœ¨æ•°æ®ä¸­å¿ƒç¡¬ä»¶çš„å‘å±•çš„å¾ˆå¤šæ–¹æ³•å€Ÿé‰´äº†æ¥è‡ªFacebook, Amazon, Microsoftä»¥åŠå…¶ä»–å…¬å¸çš„ç»éªŒã€‚
 
 
-## GoogleµÄÂÏÉúÉñÈË ##
+  å®žè¯è¯´ï¼ŒGoogleçš„ä¼˜åŠ¿å»ºç«‹åœ¨ä¸€äº›æ¥è‡ªå¾ˆå¤šå…¬å¸å’Œç ”ç©¶æœºæž„ï¼ˆæ¯”å¦‚PARCå’Œè´å°”å®žéªŒå®¤ï¼‰è¢«åŸ‹æ²¡çš„è®¡ç®—æœºç§‘å­¦å®¶çš„æ•°åå¹´æ¥çš„è´¡çŒ®ã€‚ è·ŸGoogleä¸€æ ·ï¼ŒAmazonä¹Ÿå¯¹äº’è”ç½‘çš„åŸºç¡€æœ‰å¾ˆå¤§çš„å½±å“---æœ€æ˜¾è‘—çš„æ˜¯é€šè¿‡ä¸€ç¯‡ç ”ç©¶è®ºæ–‡å‘è¡¨äº†ä¸€ä¸ªå«åšDynamoçš„æ–‡ä»¶ç³»ç»Ÿã€‚ ä½†æ˜¯Googleçš„å½±å“æ›´åŠ æ·±è¿œã€‚
 
-Kenton Varda ÔÚÓÞÈË½ÚÄÇÌìÍ¬Ê±¶ÔÆäËû¼¸ÃûgoogleµÄ¹¤³ÌÊ¦¶ñ×÷¾ç¡£ Jeff Dean¿´ÆðÀ´Ïñ¡±×îÓÐÈ¤µÄÑ¡Ôñ¡°£¬ Varda»ØÒä¡£¡±ËûµÄ·ç¶È¿ÉÄÜÊÇÕâÐ©ÉñÀïÃæ×î´óµÄ¡°
-
-ÁíÒ»¸öºòÑ¡ÈËÊÇSanjay Ghemawat£¬ Dean³¤ÆÚµÄºÏ×÷Õß¡£ 2004Äê£¬Google·¢±íÁËÒ»¸ö¹ØÓÚMapReduceµÄÑÐ¾¿ÂÛÎÄ£¬ Õâ¸öº£Á¿¼ÆËãÄÜÁ¦µÄ´¦ÀíÏµÍ³¿ÉÄÜÊÇÕâ¸ö¹«Ë¾×î¾ßÓÐÓ°ÏìÁ¦µÄÊý¾ÝÖÐÐÄ·½ÃæµÄ·¢Ã÷¡£ ÕâÆªÂÛÎÄÖ»ÁÐÁËÁ½¸ö×÷Õß£º Dean and Ghemawat¡£ ÕâÁ½¸ö¹¤³ÌÊ¦Í¬Ê±ÔÚÉè¼ÆBigtablesÊý¾Ý¿âµÄ¹ý³ÌÖÐ°çÑÝÁËÖ÷Òª½ÇÉ«¡£ Í¬Ê±GhemawatÒ²ÊÇÃèÊöGoogleÎÄ¼þÏµÍ³---Ò»ÖÖÔÚ¹«Ë¾¿çÊý¾ÝÖÐÐÄµÄÍøÂçÉÏ´æ´¢Êý¾ÝµÄ°ì·¨------µÄÈýÃû×÷ÕßÖ®Ò»
+  Googleå’ŒXerox PARCçš„åŒºåˆ«åœ¨äºŽï¼ŒGoogleçš„ä¼˜åŠ¿å¤§éƒ¨åˆ†æ¥æºäºŽå®ƒçš„å‘æ˜Žå¾€å¾€é¢†å…ˆäºŽä¸–ç•Œä¸Šå…¶ä»–å…¬å¸èƒ½èµ¶å¾—ä¸Šçš„ç¨‹åº¦ã€‚åƒGFSï¼ŒMapReduceè¿™æ ·çš„å·¥å…·ä½¿å¾—å…¬å¸åœ¨ç«žäº‰ä¸­å¤„äºŽé¢†å…ˆã€‚ çŽ°åœ¨ï¼Œå®ƒå¤§éƒ¨åˆ†å·²ç»æŠ›å¼ƒäº†è¿™äº›å·¥ä½œï¼Œå‘å±•åˆ°æ–°çš„è½¯ç¡¬ä»¶é¢†åŸŸã€‚ åˆä¸€æ¬¡ï¼Œä¸–ç•Œä¸Šå…¶ä»–å…¬å¸å¼€å§‹è¿½èµ¶google
 
 
-¼´Ê¹ÊÇ¹¤×÷ÄÇ¸öÍÅ¶ÓµÄVardaÀïÀ´¿´GoogleµÄ»ù´¡ÉèÊ©¼Ü¹¹²¿ÃÅ£¬ ÕâÁ½¸ö¹¤³ÌÊ¦Ò²ÊÇÄÑÒÔÇø·Ö¿ª¡£ ¡±JeffºÍSanjayÒ»Æð¹¤×÷¿ª·¢ÁËgoogleµÄ´ó²¿·Ö»ù´¡¼Ü¹¹£¬ ºÜ¶àÊ±ºòËûÃÇ¾ÍºÃÏñÁ¬÷Å¹Ø½Ú¶¼ÔÚÒ»Æð¡°£¬ VardaËµ£¬ ¡±ÍùÍùºÜÄÑ·Ö±æË­×öÁËÊ²Ã´¡°
+### Googleçš„å­ªç”Ÿç¥žäºº ###
 
-"ÔÚgoogleËùÓÐµÄ´úÂëÐÞ¸ÄÔÚÌá½»Ö®Ç°¶¼ÐèÒªpeer review(ÁíÒ»¸öÈË°ïÃ¦ÆÀÉó£©£¬ µ«ÊÇJeffºÍSanjayµÄÀý×Ó£¬×ÜÊÇÒ»¸öÈË·¢Ò»´ó¶ÎÒªÆÀÉóµÄ´úÂë¶Ô·½£¬¶Ô·½Ö±½Ó 'LGTM'¡£ ÒòÎªËûÃÇÁ©×ÜÊÇÒ»ÆðÐÞ¸Ä´úÂë£º¡±  LGTMÔÚGoogleµÄÒâË¼ÊÇ¡°looks  good to  me"
+  Kenton Varda åœ¨æ„šäººèŠ‚é‚£å¤©åŒæ—¶å¯¹å…¶ä»–å‡ ågoogleçš„å·¥ç¨‹å¸ˆæ¶ä½œå‰§ã€‚ Jeff Deançœ‹èµ·æ¥åƒâ€œæœ€æœ‰è¶£çš„é€‰æ‹©â€ Vardaå›žå¿†ã€‚â€œä»–çš„é£Žåº¦å¯èƒ½æ˜¯è¿™äº›ç¥žé‡Œé¢æœ€å¤§çš„â€
 
-VardaËµµÄÕâÐ©¶¼ÊÇÕæÊµ¡£ ÕâÐ©ÄêÀ´£¬ DeanºÍGhemawatÑø³ÉÁË×øÔÚÍ¬Ò»Ì¨»úÆ÷Ç°ÃæÒ»ÆðcodingµÄÏ°¹ß¡£ Ò»°ãÊÇGhemawat±àÂë. "ËûÊÇËûµÄµØÅÌÉÏµÄÊÕ¸îÕß¡°£¬ DeanËµ
-
-ËûÃÇÁ©ÔÚÀ´googleÖ®Ç°¾ÍÈÏÊ¶ÁË¡£ 90Äê´ú£¬ËûÃÇ¶¼ÔÚDEC¹«Ë¾----Ç°»¥ÁªÍøÊ±´úµÄ¼ÆËãÁìÓò¾ÞÈË----µÄ¹è¹ÈÑÐ¾¿Ëù¹¤×÷¡£DeanÔÚ¼ÓÖÝPalo AltoµÄDECÎ÷²¿ÑÐ¾¿Ëù¹¤×÷£¬ GhemawatÔòÔÚÁ½¶°Â¥Ö®ÍâµÄæ¢ÃÃÊµÑéÊÒ-----DECÏµÍ³ÑÐ¾¿ÖÐÐÄ----¹¤×÷¡£ËûÃÇÁ©¾­³£ºÏ×÷ÏîÄ¿£¬²¢²»½ö½öÒòÎªDean¶Ô´¦ÓÚÁ½¸öÊµÑéÊÒÖ®¼äµÄ±ù¼¤Áèµê¸ÐÐËÈ¤£¬¶øÊÇËûÃÇÁ©Ò»ÆðºÏ×÷µÄºÜºÃ¡£ ÔÚDEC£¬ ËûÃÇÒ»ÆðÎªjavaÓïÑÔÐ´ÁËÒ»¸öÐÂµÄ±àÒëÆ÷£¬ ÒÔ¼°Ò»¸ö¸Ä±äÁËÎÒÃÇ×·×Ù·þÎñÆ÷ÐÐÎª·½Ê½µÄÏµÍ³·ÖÎöÆ÷
+  å¦ä¸€ä¸ªå€™é€‰äººæ˜¯Sanjay Ghemawatï¼Œ Deané•¿æœŸçš„åˆä½œè€…ã€‚ 2004å¹´ï¼ŒGoogleå‘è¡¨äº†ä¸€ä¸ªå…³äºŽMapReduceçš„ç ”ç©¶è®ºæ–‡ï¼Œ è¿™ä¸ªæµ·é‡è®¡ç®—èƒ½åŠ›çš„å¤„ç†ç³»ç»Ÿå¯èƒ½æ˜¯è¿™ä¸ªå…¬å¸æœ€å…·æœ‰å½±å“åŠ›çš„æ•°æ®ä¸­å¿ƒæ–¹é¢çš„å‘æ˜Žã€‚ è¿™ç¯‡è®ºæ–‡åªåˆ—äº†ä¸¤ä¸ªä½œè€…ï¼š Dean and Ghemawatã€‚ è¿™ä¸¤ä¸ªå·¥ç¨‹å¸ˆåŒæ—¶åœ¨è®¾è®¡Bigtablesæ•°æ®åº“çš„è¿‡ç¨‹ä¸­æ‰®æ¼”äº†ä¸»è¦è§’è‰²ã€‚ åŒæ—¶Ghemawatä¹Ÿæ˜¯æè¿°Googleæ–‡ä»¶ç³»ç»Ÿ---ä¸€ç§åœ¨å…¬å¸è·¨æ•°æ®ä¸­å¿ƒçš„ç½‘ç»œä¸Šå­˜å‚¨æ•°æ®çš„åŠžæ³•------çš„ä¸‰åä½œè€…ä¹‹ä¸€
 
 
-ËûÃÇ×÷ÎªDECÑÐ¾¿Á¦Á¿¡°ÒÆÃñ¡±µÄÒ»²¿·Ö£¬ Ò»ÆðÀ´µ½Google¡£ ÔÚ90Äê´úºóÆÚ£¬ ´ËÊ±µÄGoogle¸Õ¸ÕÆð²½£¬µ«ÊÇDECÈ´ÒÑÊÇÈÕ±¡Î÷É½¡£ GoogleÓÃºÜ¶àRISC¼Ü¹¹µÄÎ¢´¦ÀíÆ÷ÖÆÔì³ö´óÐÍ£¨¼ÆËãÄÜÁ¦£©µÄ·þÎñÆ÷£¬ ²¢ÇÒµ±Ê±ÊÀ½çµÄ³±Á÷Ñ¸ËÙµÄÓ¿Ïò×°±¸ÁËX86Ð¾Æ¬µÄµÍ¹¦ºÄ»úÆ÷¡£1998Äê£¬ DEC±»PC¾ÞÈË¿µÆÕÊÕ¹º¡£ ËÄÄêºó£¬¿µÆÕ±»HPºÏ²¢¡£ DECÑÐ¾¿ÔºµÄ¶¥¼¶ÑÐ¾¿Ô±Öð½¥µÄÏòÆäËûµØ·½·¢Õ¹¡£
+  å³ä½¿æ˜¯å·¥ä½œé‚£ä¸ªå›¢é˜Ÿçš„Vardaé‡Œæ¥çœ‹Googleçš„åŸºç¡€è®¾æ–½æž¶æž„éƒ¨é—¨ï¼Œ è¿™ä¸¤ä¸ªå·¥ç¨‹å¸ˆä¹Ÿæ˜¯éš¾ä»¥åŒºåˆ†å¼€ã€‚ â€Jeffå’ŒSanjayä¸€èµ·å·¥ä½œå¼€å‘äº†googleçš„å¤§éƒ¨åˆ†åŸºç¡€æž¶æž„ï¼Œ å¾ˆå¤šæ—¶å€™ä»–ä»¬å°±å¥½åƒè¿žé«‹å…³èŠ‚éƒ½åœ¨ä¸€èµ·â€œï¼Œ Vardaè¯´ï¼Œ â€å¾€å¾€å¾ˆéš¾åˆ†è¾¨è°åšäº†ä»€ä¹ˆâ€œ
 
-¡±DECÊµÑéÊÒÔÚ±»¿µÆÕÊÕ¹ººó¾­ÀúÁËÒ»¶Î¶¯µ´µÄÊ±ÆÚ¡°£¬ DeanËµ£¬¡°¶øÇÒËü²¢²»Çå³þÔÚÕâ¼ÒºÏ²¢ÁËµÄ¹«Ë¾Àï£¬ÑÐ¾¿ÔºËù´¦µÄ½ÇÉ«¡±¡£ Ò»Ð©¹¤³ÌÊ¦È¥ÁË¸Õ¸ÕÔÚ¹è¹È¿ªÁË·ÖÖ§ÑÐ¾¿»ú¹¹µÄÎ¢Èí£¬ Ò»Ð©È¥ÁËPalo AltoµÄ½ÐÒ»¼Ò½Ð×öVmware¡¢´ÓÊÂ½«Êý¾ÝÖÐÐÄµß¸²µÄÐéÄâ»úÐÐÒµµÄ´´Òµ¹«Ë¾¡£ ºÜ¶àÔòÈ¥ÁËGoogleÕâ¼Ò³ÉÁ¢ÓÚDEC±»¿µÆÕÊÕ¹ºÍ¬Äê³ÉÁ¢µÄ¹«Ë¾¡£
+  "åœ¨googleæ‰€æœ‰çš„ä»£ç ä¿®æ”¹åœ¨æäº¤ä¹‹å‰éƒ½éœ€è¦peer review(å¦ä¸€ä¸ªäººå¸®å¿™è¯„å®¡ï¼‰ï¼Œ ä½†æ˜¯Jeffå’ŒSanjayçš„ä¾‹å­ï¼Œæ€»æ˜¯ä¸€ä¸ªäººå‘ä¸€å¤§æ®µè¦è¯„å®¡çš„ä»£ç å¯¹æ–¹ï¼Œå¯¹æ–¹ç›´æŽ¥ 'LGTM'ã€‚ å› ä¸ºä»–ä»¬ä¿©æ€»æ˜¯ä¸€èµ·ä¿®æ”¹ä»£ç ï¼šâ€  LGTMåœ¨Googleçš„æ„æ€æ˜¯â€œlooks  good to  me"
 
-ÕâÊÇÒ»¶ÎºÃ¼¸¼ÒÊÀ½çÉÏ×îÓÐÓ°ÏìÁ¦µÄÑÐ¾¿Ëù--°üÀ¨Xerox PARC£¬ ±´¶ûÊµÑéÊÒ£¨²úÉú³öUnix²Ù×÷ÏµÍ³ºÍCÓïÑÔ£©----Ê§È¥¶¯Á¦µÄÊ±ÆÚ¡£ µ«ÊÇ¼´Ê¹ÕâÐ©ÑÐ¾¿ËùµÄºÃÈÕ×Óµ½Í·ÁË£¬ºÜ¶àËûÃÇµÄÑÐ¾¿Ô±È´Ó­À´ÁËÊï¹â¡£
+  Vardaè¯´çš„è¿™äº›éƒ½æ˜¯çœŸå®žã€‚ è¿™äº›å¹´æ¥ï¼Œ Deanå’ŒGhemawatå…»æˆäº†ååœ¨åŒä¸€å°æœºå™¨å‰é¢ä¸€èµ·codingçš„ä¹ æƒ¯ã€‚ ä¸€èˆ¬æ˜¯Ghemawatç¼–ç . "ä»–æ˜¯ä»–çš„åœ°ç›˜ä¸Šçš„æ”¶å‰²è€…â€œï¼Œ Deanè¯´
 
-¡°2001Äê£¬ »¥ÁªÍøÅÝÄ­±ÀÀ£¡£ °üÀ¨DECÔÚÄÚµÄ¾ÞÍ·ÃÇµÄÊ±ºòËõ¼õ¹æÄ£µÄÊ±ºò£¬ GoogleºÍVmwareÁ½¸ö¸ß¿Æ¼¼¹«Ë¾ÔÚÕÐÈË¡±¡£ Eric Brewer£¬ÏÖÔÚºÍDeanºÍGhemawatÒ»Æð¹¤×÷µÄ¼ÓÖÝ´óÑ§²®¿ËÀû·ÖÐ£¼ÆËã»úÏµ½ÌÊÚËµµÀ¡£ ¡°ÓÉÓÚÐèÇóºÍ¹©¸øµÄÑÏÖØ²»¶Ô³Æ£¬ ¹«Ë¾£¨Ö¸GoogleºÍVmware£©ÕÐÆ¸ÁËºÜ¶àÕæÕýµÄÎ°´óµÄÈË²¢ÇÒ¶¼ÒòÎªÕâ¸öÒòËØ·¢Õ¹µÄºÜºÃ¡£¡±
+  ä»–ä»¬ä¿©åœ¨æ¥googleä¹‹å‰å°±è®¤è¯†äº†ã€‚ 90å¹´ä»£ï¼Œä»–ä»¬éƒ½åœ¨DECå…¬å¸----å‰äº’è”ç½‘æ—¶ä»£çš„è®¡ç®—é¢†åŸŸå·¨äºº----çš„ç¡…è°·ç ”ç©¶æ‰€å·¥ä½œã€‚Deanåœ¨åŠ å·žPalo Altoçš„DECè¥¿éƒ¨ç ”ç©¶æ‰€å·¥ä½œï¼Œ Ghemawatåˆ™åœ¨ä¸¤æ ‹æ¥¼ä¹‹å¤–çš„å§Šå¦¹å®žéªŒå®¤-----DECç³»ç»Ÿç ”ç©¶ä¸­å¿ƒ----å·¥ä½œã€‚ä»–ä»¬ä¿©ç»å¸¸åˆä½œé¡¹ç›®ï¼Œå¹¶ä¸ä»…ä»…å› ä¸ºDeanå¯¹å¤„äºŽä¸¤ä¸ªå®žéªŒå®¤ä¹‹é—´çš„å†°æ¿€å‡Œåº—æ„Ÿå…´è¶£ï¼Œè€Œæ˜¯ä»–ä»¬ä¿©ä¸€èµ·åˆä½œçš„å¾ˆå¥½ã€‚ åœ¨DECï¼Œ ä»–ä»¬ä¸€èµ·ä¸ºjavaè¯­è¨€å†™äº†ä¸€ä¸ªæ–°çš„ç¼–è¯‘å™¨ï¼Œ ä»¥åŠä¸€ä¸ªæ”¹å˜äº†æˆ‘ä»¬è¿½è¸ªæœåŠ¡å™¨è¡Œä¸ºæ–¹å¼çš„ç³»ç»Ÿåˆ†æžå™¨
 
 
+  ä»–ä»¬ä½œä¸ºDECç ”ç©¶åŠ›é‡â€œç§»æ°‘â€çš„ä¸€éƒ¨åˆ†ï¼Œ ä¸€èµ·æ¥åˆ°Googleã€‚ åœ¨90å¹´ä»£åŽæœŸï¼Œ æ­¤æ—¶çš„Googleåˆšåˆšèµ·æ­¥ï¼Œä½†æ˜¯DECå´å·²æ˜¯æ—¥è–„è¥¿å±±ã€‚ Googleç”¨å¾ˆå¤šRISCæž¶æž„çš„å¾®å¤„ç†å™¨åˆ¶é€ å‡ºå¤§åž‹ï¼ˆè®¡ç®—èƒ½åŠ›ï¼‰çš„æœåŠ¡å™¨ï¼Œ å¹¶ä¸”å½“æ—¶ä¸–ç•Œçš„æ½®æµè¿…é€Ÿçš„æ¶Œå‘è£…å¤‡äº†X86èŠ¯ç‰‡çš„ä½ŽåŠŸè€—æœºå™¨ã€‚1998å¹´ï¼Œ DECè¢«PCå·¨äººåº·æ™®æ”¶è´­ã€‚ å››å¹´åŽï¼Œåº·æ™®è¢«HPåˆå¹¶ã€‚ DECç ”ç©¶é™¢çš„é¡¶çº§ç ”ç©¶å‘˜é€æ¸çš„å‘å…¶ä»–åœ°æ–¹å‘å±•ã€‚
 
-ºÍDeanºÍGhemawatÒ»Ñù£¬ºÃ¼¸Î»´ÓDECÀ´µ½GoogleµÄ¹¤³ÌÊ¦°ïÃ¦Éè¼ÆÁËÒ»ÏµÁÐµÄµ¼ÖÂÁËÕû¸öWeb¿ÉÒÔ±»µ±×öÒ»¸öÕûÌåµÄ¼¼Êõ£¬ ÆäÖÐ°üÀ¨Mike Burrows, Shun-Tak Leung, ºÍLuiz Andr¨¦ Barroso. Í¬Ê±£¬ÕâÐ©¹¤³ÌÊ¦ÔÚÑ°ÕÒÓÐÒâË¼µÄ¹¤×÷----GoogleÒ²ÔÚÕÒÑ°×ã¹»´ÏÃ÷µÄÈËÀ´Ê¹µÃËÑË÷ÒýÇæÅÜÆðÀ´¡£ µ«ÊÇ×÷ÎªÊÂºóÖî¸ðÁÁÀ´·ÖÎö£¬ÕâÐ©À´×ÔDECµÄ¡°ÒÆÃñ¡±Ìá¹©ÁËÀíÏëµÄÏóÕ÷Ê¹µÃGoogleÄÜºó¸Ä±äÐÎÏóÒÙÁ¢ÔÚÊÀ½çÉÏÆäËû¹«Ë¾Ö®Ç°¡£
+  â€ DECå®žéªŒå®¤åœ¨è¢«åº·æ™®æ”¶è´­åŽç»åŽ†äº†ä¸€æ®µåŠ¨è¡çš„æ—¶æœŸâ€œï¼Œ Deanè¯´ï¼Œâ€œè€Œä¸”å®ƒå¹¶ä¸æ¸…æ¥šåœ¨è¿™å®¶åˆå¹¶äº†çš„å…¬å¸é‡Œï¼Œç ”ç©¶é™¢æ‰€å¤„çš„è§’è‰²â€ã€‚ ä¸€äº›å·¥ç¨‹å¸ˆåŽ»äº†åˆšåˆšåœ¨ç¡…è°·å¼€äº†åˆ†æ”¯ç ”ç©¶æœºæž„çš„å¾®è½¯ï¼Œ ä¸€äº›åŽ»äº†Palo Altoçš„å«ä¸€å®¶å«åšVmwareã€ä»Žäº‹å°†æ•°æ®ä¸­å¿ƒé¢ è¦†çš„è™šæ‹Ÿæœºè¡Œä¸šçš„åˆ›ä¸šå…¬å¸ã€‚ å¾ˆå¤šåˆ™åŽ»äº†Googleè¿™å®¶æˆç«‹äºŽDECè¢«åº·æ™®æ”¶è´­åŒå¹´æˆç«‹çš„å…¬å¸ã€‚
 
-DECÊÇµÚÒ»¸ö¹¹½¨Æð³É¹¦µÄwebËÑË÷ÒýÇæµÄ¹«Ë¾--³ö×ÔDECÎ÷²¿ÑÐ¾¿ËùµÄAltaVista--- ÖÁÉÙÔÚ¸Õ¿ªÊ¼Ê±£¬Õû¸öAltaVistaÔËÐÐÔÚµ¥Ì¨µÄDEC»úÆ÷ÉÏ¡£GoogleÈÃALtaVista÷öÈ»Ê§É«ºÜ´óÒ»²¿·ÖÊÇÒòÎªËüÍêÈ«¸Ä±äÁËÕâÖÖÄ£Ê½¡£ ÓëÆäÓÃ´óÐÍµÄ»úÆ÷À´ÔËÐÐËÑË÷ÒýÇæ£¬Google½«Õû¸öÈí¼þÏµÍ³·Ö½â³ÉÐ¡¿é£¬ ²¢ÇÒ°ÑÈÎÎñ·¢É¢µ½Ð¡ÐÍÁ®¼ÛµÄ»úÆ÷ÉÏÈ¥¡£Õâ¾ÍÊÇÒþÄäÔÚGFS£¬ MapReduce£¬ BigTable±³ºóµÄË¼Ïë¡£
+  è¿™æ˜¯ä¸€æ®µå¥½å‡ å®¶ä¸–ç•Œä¸Šæœ€æœ‰å½±å“åŠ›çš„ç ”ç©¶æ‰€--åŒ…æ‹¬Xerox PARCï¼Œ è´å°”å®žéªŒå®¤ï¼ˆäº§ç”Ÿå‡º[Unixæ“ä½œç³»ç»Ÿå’ŒCè¯­è¨€](http://www.wired.com/wiredenterprise/2011/10/thedennisritchieeffect/)ï¼‰----å¤±åŽ»åŠ¨åŠ›çš„æ—¶æœŸã€‚ ä½†æ˜¯å³ä½¿è¿™äº›ç ”ç©¶æ‰€çš„å¥½æ—¥å­åˆ°å¤´äº†ï¼Œå¾ˆå¤šä»–ä»¬çš„ç ”ç©¶å‘˜å´è¿Žæ¥äº†æ›™å…‰ã€‚
 
-ÊÂºóÖî¸ðÁÁÀ´·ÖÎöµÄ»°£¬ ÕâÊÇ×ÔÈ»½ø»¯µÄ¹ý³Ì¡£ ¡°¹¹½¨Ò»¸öÏñGoogleÕâÑùÓÃÉÏÇ§Ì¨¼ÆËã»ú´î½¨ÆðÀ´µÄÏµÍ³µÄ¼Ü¹¹ÉÏµÄÌôÕ½ºÍ¹¹½¨Ò»¸ö¸´ÔÓÍêÕûµÄÏµÍ³µÄÌôÕ½²¢²»ÊÇÍêÈ«²»ÏàÍ¬¡±£¬ Armando Fox£¬ ¼ÓÖÝ´óÑ§²®¿ËÀû·ÖÐ£¼ÆËã»úÏµ´ó¹æÄ£¼ÆËã·½ÃæµÄ½ÌÊÚËµµÀ£¬¡°ÕâÐ©ÎÊÌâ±¾ÖÊÉÏºÜÏà½ü£¬ ÕâÒ²ÊÇÎªÊ²Ã´ÐèÒªÓÐÔÚDEC¹¤×÷¹ýµÄÈËÀ´²ÎÕâÐ©¹¤×÷¡±
+  â€œ2001å¹´ï¼Œ äº’è”ç½‘æ³¡æ²«å´©æºƒã€‚ åŒ…æ‹¬DECåœ¨å†…çš„å·¨å¤´ä»¬çš„æ—¶å€™ç¼©å‡è§„æ¨¡çš„æ—¶å€™ï¼Œ Googleå’ŒVmwareä¸¤ä¸ªé«˜ç§‘æŠ€å…¬å¸åœ¨æ‹›äººâ€ã€‚ Eric Brewerï¼ŒçŽ°åœ¨å’ŒDeanå’ŒGhemawatä¸€èµ·å·¥ä½œçš„åŠ å·žå¤§å­¦ä¼¯å…‹åˆ©åˆ†æ ¡è®¡ç®—æœºç³»æ•™æŽˆè¯´é“ã€‚ â€œç”±äºŽéœ€æ±‚å’Œä¾›ç»™çš„ä¸¥é‡ä¸å¯¹ç§°ï¼Œ å…¬å¸ï¼ˆæŒ‡Googleå’ŒVmwareï¼‰æ‹›è˜äº†å¾ˆå¤šçœŸæ­£çš„ä¼Ÿå¤§çš„äººå¹¶ä¸”éƒ½å› ä¸ºè¿™ä¸ªå› ç´ å‘å±•çš„å¾ˆå¥½ã€‚â€
+
+
+  å’ŒDeanå’ŒGhemawatä¸€æ ·ï¼Œå¥½å‡ ä½ä»ŽDECæ¥åˆ°Googleçš„å·¥ç¨‹å¸ˆå¸®å¿™è®¾è®¡äº†ä¸€ç³»åˆ—çš„å¯¼è‡´äº†æ•´ä¸ªWebå¯ä»¥è¢«å½“åšä¸€ä¸ªæ•´ä½“çš„æŠ€æœ¯ï¼Œ å…¶ä¸­åŒ…æ‹¬Mike Burrows, Shun-Tak Leung, å’ŒLuiz AndrÃ© Barroso. åŒæ—¶ï¼Œè¿™äº›å·¥ç¨‹å¸ˆåœ¨å¯»æ‰¾æœ‰æ„æ€çš„å·¥ä½œ----Googleä¹Ÿåœ¨æ‰¾å¯»è¶³å¤Ÿèªæ˜Žçš„äººæ¥ä½¿å¾—æœç´¢å¼•æ“Žè·‘èµ·æ¥ã€‚ ä½†æ˜¯ä½œä¸ºäº‹åŽè¯¸è‘›äº®æ¥åˆ†æžï¼Œè¿™äº›æ¥è‡ªDECçš„â€œç§»æ°‘â€æä¾›äº†ç†æƒ³çš„è±¡å¾ä½¿å¾—Googleèƒ½åŽæ”¹å˜å½¢è±¡å±¹ç«‹åœ¨ä¸–ç•Œä¸Šå…¶ä»–å…¬å¸ä¹‹å‰ã€‚
+
+  DECæ˜¯ç¬¬ä¸€ä¸ªæž„å»ºèµ·æˆåŠŸçš„webæœç´¢å¼•æ“Žçš„å…¬å¸--å‡ºè‡ªDECè¥¿éƒ¨ç ”ç©¶æ‰€çš„AltaVista--- è‡³å°‘åœ¨åˆšå¼€å§‹æ—¶ï¼Œæ•´ä¸ªAltaVistaè¿è¡Œåœ¨å•å°çš„DECæœºå™¨ä¸Šã€‚Googleè®©ALtaVistaé»¯ç„¶å¤±è‰²å¾ˆå¤§ä¸€éƒ¨åˆ†æ˜¯å› ä¸ºå®ƒå®Œå…¨æ”¹å˜äº†è¿™ç§æ¨¡å¼ã€‚ ä¸Žå…¶ç”¨å¤§åž‹çš„æœºå™¨æ¥è¿è¡Œæœç´¢å¼•æ“Žï¼ŒGoogleå°†æ•´ä¸ªè½¯ä»¶ç³»ç»Ÿåˆ†è§£æˆå°å—ï¼Œ å¹¶ä¸”æŠŠä»»åŠ¡å‘æ•£åˆ°å°åž‹å»‰ä»·çš„æœºå™¨ä¸ŠåŽ»ã€‚è¿™å°±æ˜¯éšåŒ¿åœ¨GFSï¼Œ MapReduceï¼Œ BigTableèƒŒåŽçš„æ€æƒ³ã€‚
+
+  äº‹åŽè¯¸è‘›äº®æ¥åˆ†æžçš„è¯ï¼Œ è¿™æ˜¯è‡ªç„¶è¿›åŒ–çš„è¿‡ç¨‹ã€‚ â€œæž„å»ºä¸€ä¸ªåƒGoogleè¿™æ ·ç”¨ä¸Šåƒå°è®¡ç®—æœºæ­å»ºèµ·æ¥çš„ç³»ç»Ÿçš„æž¶æž„ä¸Šçš„æŒ‘æˆ˜å’Œæž„å»ºä¸€ä¸ªå¤æ‚å®Œæ•´çš„ç³»ç»Ÿçš„æŒ‘æˆ˜å¹¶ä¸æ˜¯å®Œå…¨ä¸ç›¸åŒâ€ï¼Œ Armando Foxï¼Œ åŠ å·žå¤§å­¦ä¼¯å…‹åˆ©åˆ†æ ¡è®¡ç®—æœºç³»å¤§è§„æ¨¡è®¡ç®—æ–¹é¢çš„æ•™æŽˆè¯´é“ï¼Œâ€œè¿™äº›é—®é¢˜æœ¬è´¨ä¸Šå¾ˆç›¸è¿‘ï¼Œ è¿™ä¹Ÿæ˜¯ä¸ºä»€ä¹ˆéœ€è¦æœ‰åœ¨DECå·¥ä½œè¿‡çš„äººæ¥å‚è¿™äº›å·¥ä½œâ€
 
 
 
