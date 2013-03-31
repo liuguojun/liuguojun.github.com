@@ -6,9 +6,12 @@
     <title>{{ page.title }} | {{ site.author }}</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <link href="{{ site.url }}/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    <link rel="stylesheet" href="/media/css/style.css">
-    <link rel="stylesheet" href="/media/css/highlight.css">
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+
+    <!-- 利用二级域名，避免浏览器并发请求限制-->
+    <link rel="stylesheet" href="http://media.liugj.com/media/css/style.css">
+    <link rel="stylesheet" href="http://media.liugj.com/media/css/highlight.css">
+    <!-- 利用baidu的公共cdn加速-->
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
   </head>
   <body>
     <div id="container">
@@ -19,8 +22,6 @@
         <nav>
         <span><a title="home page" class="" href="{{ site.url }}/">home</a></span>
         <span><a title="about" class="" href="{{ site.url }}/about/">about</a></span>
-        <span><a title="guestbook" class="" href="{{ site.url }}/guestbook/">guestbook</a></span>
-        <span><a title="vitae" class="" href="{{ site.url }}/vitae/">vitae</a></span>
         <span><a title="categories" class="" href="{{ site.url }}/categories/">categories</a></span>
         <span><a title="tags" class="" href="{{ site.url }}/tags/">tags</a></span>
         <span><a title="links" class="" href="{{ site.url }}/links/">links</a></span>
