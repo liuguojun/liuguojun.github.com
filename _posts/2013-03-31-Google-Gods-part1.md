@@ -1,8 +1,8 @@
 ---
-layout:post
-title: [·­Òë] If Xerox PARC Invented the PC, Google Invented the Internet Part 1.
-categories: [·­Òë][ITÊ·]
-tags: [Google][Jeff Dean]
+layout: post
+title: (Òë) GoogleÖÚÉñ -- If Xerox PARC Invented the PC, Google Invented the Internet Part 1.
+categories: [IT History]
+tags: [Google, Jeff Dean]
 ---
 
 ×¢£º»¨¿ªÁËºÃ´óÁ¦Æø·­ÒëÁËÕâÆªÎÄÕÂ£¬ Ë®Æ½ÓÐÏÞºÜ¶àÓ¢ÓïÏ°Óï²»ÖªµÀ£¬ÓÐ´íÎóµÄµØ·½ÇëÁôÑÔÖ¸³ö£¬Ð»Ð»
@@ -44,7 +44,7 @@ GoogleÄÚ²¿ÓÐÒ»¸öË½ÓÐµÄÍøÕ¾Ìá¹©ÁËÒ»ÏµÁÐµÄ¹ØÓÚJeff Dean---ÕâÎ»Google×îÔçµÄ¹ÍÔ±Ö®Ò»
 GoogleºÍXerox PARCµÄÇø±ðÔÚÓÚ£¬GoogleµÄÓÅÊÆ´ó²¿·ÖÀ´Ô´ÓÚËüµÄ·¢Ã÷ÍùÍùÁìÏÈÓÚÊÀ½çÉÏÆäËû¹«Ë¾ÄÜ¸ÏµÃÉÏµÄ³Ì¶È¡£ÏñGFS£¬MapReduceÕâÑùµÄ¹¤¾ßÊ¹µÃ¹«Ë¾ÔÚ¾ºÕùÖÐ´¦ÓÚÁìÏÈ¡£ ÏÖÔÚ£¬Ëü´ó²¿·ÖÒÑ¾­Å×ÆúÁËÕâÐ©¹¤×÷£¬·¢Õ¹µ½ÐÂµÄÈíÓ²¼þÁìÓò¡£ ÓÖÒ»´Î£¬ÊÀ½çÉÏÆäËû¹«Ë¾¿ªÊ¼×·¸Ïgoogle
 
 
-GoogleµÄÂÏÉúÉñÈË
+## GoogleµÄÂÏÉúÉñÈË ##
 
 Kenton Varda ÔÚÓÞÈË½ÚÄÇÌìÍ¬Ê±¶ÔÆäËû¼¸ÃûgoogleµÄ¹¤³ÌÊ¦¶ñ×÷¾ç¡£ Jeff Dean¿´ÆðÀ´Ïñ¡±×îÓÐÈ¤µÄÑ¡Ôñ¡°£¬ Varda»ØÒä¡£¡±ËûµÄ·ç¶È¿ÉÄÜÊÇÕâÐ©ÉñÀïÃæ×î´óµÄ¡°
 
@@ -53,7 +53,7 @@ Kenton Varda ÔÚÓÞÈË½ÚÄÇÌìÍ¬Ê±¶ÔÆäËû¼¸ÃûgoogleµÄ¹¤³ÌÊ¦¶ñ×÷¾ç¡£ Jeff Dean¿´ÆðÀ´Ïñ¡
 
 ¼´Ê¹ÊÇ¹¤×÷ÄÇ¸öÍÅ¶ÓµÄVardaÀïÀ´¿´GoogleµÄ»ù´¡ÉèÊ©¼Ü¹¹²¿ÃÅ£¬ ÕâÁ½¸ö¹¤³ÌÊ¦Ò²ÊÇÄÑÒÔÇø·Ö¿ª¡£ ¡±JeffºÍSanjayÒ»Æð¹¤×÷¿ª·¢ÁËgoogleµÄ´ó²¿·Ö»ù´¡¼Ü¹¹£¬ ºÜ¶àÊ±ºòËûÃÇ¾ÍºÃÏñÁ¬÷Å¹Ø½Ú¶¼ÔÚÒ»Æð¡°£¬ VardaËµ£¬ ¡±ÍùÍùºÜÄÑ·Ö±æË­×öÁËÊ²Ã´¡°
 
-¡±ÔÚgoogleËùÓÐµÄ´úÂëÐÞ¸ÄÔÚÌá½»Ö®Ç°¶¼ÐèÒªpeer review(ÁíÒ»¸öÈË°ïÃ¦ÆÀÉó£©£¬ µ«ÊÇJeffºÍSanjayµÄÀý×Ó£¬×ÜÊÇÒ»¸öÈË·¢Ò»´ó¶ÎÒªÆÀÉóµÄ´úÂë¶Ô·½£¬¶Ô·½Ö±½Ó ¡®LGTM'¡£ ÒòÎªËûÃÇÁ©×ÜÊÇÒ»ÆðÐÞ¸Ä´úÂë£º¡±  LGTMÔÚGoogleµÄÒâË¼ÊÇ¡°looks  good to  me¡±
+"ÔÚgoogleËùÓÐµÄ´úÂëÐÞ¸ÄÔÚÌá½»Ö®Ç°¶¼ÐèÒªpeer review(ÁíÒ»¸öÈË°ïÃ¦ÆÀÉó£©£¬ µ«ÊÇJeffºÍSanjayµÄÀý×Ó£¬×ÜÊÇÒ»¸öÈË·¢Ò»´ó¶ÎÒªÆÀÉóµÄ´úÂë¶Ô·½£¬¶Ô·½Ö±½Ó 'LGTM'¡£ ÒòÎªËûÃÇÁ©×ÜÊÇÒ»ÆðÐÞ¸Ä´úÂë£º¡±  LGTMÔÚGoogleµÄÒâË¼ÊÇ¡°looks  good to  me"
 
 VardaËµµÄÕâÐ©¶¼ÊÇÕæÊµ¡£ ÕâÐ©ÄêÀ´£¬ DeanºÍGhemawatÑø³ÉÁË×øÔÚÍ¬Ò»Ì¨»úÆ÷Ç°ÃæÒ»ÆðcodingµÄÏ°¹ß¡£ Ò»°ãÊÇGhemawat±àÂë. "ËûÊÇËûµÄµØÅÌÉÏµÄÊÕ¸îÕß¡°£¬ DeanËµ
 
