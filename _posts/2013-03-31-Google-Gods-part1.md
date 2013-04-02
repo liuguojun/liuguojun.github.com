@@ -6,10 +6,12 @@ tags: [Google, Jeff Dean]
 ---
 
 - 原文[地址](http://www.wired.com/wiredenterprise/2012/08/google-as-xerox-parc/all/)
- 
+   , 第一部分在[这里](http://www.liugj.com/2013/03/Google-Gods-part2/) 
 - 花了好大力气翻译了这篇文章， 水平有限很多英语习语不知道该如何翻译，有错误的地方请留言指出，谢谢
 -  题目 Google众神是我自己取得(以前有本书叫做美国众神...)
 
+
+---------------------------------------
 
 ## 如果说施乐帕克研究中心发明了PC， 那么Google创造了互联网 ##
 
@@ -50,7 +52,7 @@ tags: [Google, Jeff Dean]
 
   Google和Xerox PARC的区别在于，Google的优势大部分来源于它的发明往往领先于世界上其他公司能赶得上的程度。像GFS，MapReduce这样的工具使得公司在竞争中处于领先。 现在，它大部分已经抛弃了这些工作，发展到新的软硬件领域。 又一次，世界上其他公司开始追赶google
 
-
+---------------------------------------
 ### Google的孪生神人 ###
 
   Kenton Varda 在愚人节那天同时对其他几名google的工程师恶作剧。 Jeff Dean看起来像“最有趣的选择” Varda回忆。“他的风度可能是这些神里面最大的”

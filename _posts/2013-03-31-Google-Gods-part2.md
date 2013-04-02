@@ -6,28 +6,22 @@ tags: [Google, Jeff Dean]
 ---
 
 - 原文[地址](http://www.wired.com/wiredenterprise/2012/08/google-as-xerox-parc/all/)
-  Part 1[地址](http://www.liugj.com/2013/03/Google-Gods-part1/)
+  , 第一部分在[这里](http://www.liugj.com/2013/03/Google-Gods-part1/)
  
 - 花了好大力气翻译了这篇文章， 水平有限很多英语习语不知道该如何翻译，有错误的地方请留言指出，谢谢
 -  题目 Google众神是我自己取得(以前有本书叫做美国众神...)
 
 
-## 如果说施乐帕克研究中心发明了PC， 那么Google创造了互联网 ##
-
-
-
-![](http://ww4.sinaimg.cn/large/a7480316jw1e39e2hsgyhj.jpg)
-
-
+---------------------------------------
 
 ### Jeff Dean追随他“叔叔”来到Google ###
 
 
-![](http://ww1.sinaimg.cn/large/a74ecc4cjw1e3bkubsy01j.jpg)
+![Uncle John](http://ww1.sinaimg.cn/large/a74ecc4cjw1e3bkubsy01j.jpg)
 
 Jeff Dean 是第一个从DEC来到Google的。他追随他“学术上的叔叔(学术上的领路人）”---Urs Hölzle的脚步。
 
-Hölzle是Google最开始的10名员工之一，也是公司第一个工程副总，他见证了Google基础架构----根据外界猜测，Google有分布在全球的多达35个数据中心----从无到有诞生的过程。他以加州大学圣芭芭拉分校教授的身份加入了Google。 在这之前，他在斯坦福大学跟随曾经开发过现今Java语言编译器的一些核心技术的David Ungar教授学习。
+Hölzle是Google最开始的10名员工之一，也是公司第一个工程副总，他[见证了Google基础架构](http://www.wired.com/wiredenterprise/2012/04/going-with-the-flow-google/)----根据外界猜测，Google有分布在全球的多达35个数据中心----从无到有诞生的过程。他以加州大学圣芭芭拉分校教授的身份加入了Google。 在这之前，他在斯坦福大学跟随曾经开发过现今Java语言编译器的一些核心技术的[David Ungar](http://en.wikipedia.org/wiki/David_Ungar)教授学习。
 
 
 Dean学术上的导师（译注：指Urs Hölzle）也跟随过Ungar一起学习过，所以我们称呼Hölzle为“学术上的叔叔”。 1999年，当DEC垂死挣扎的时候， Dean离开了DEC，去了一家叫MySimon的创业公司。但是当他看到Hölzle在Google的时候，他发了封邮件询问Google是否能提供他想要的工作。很快他就被当初招聘Hölzle的那个人给招进了公司。 那个人正是Google的合伙创始人， 拉里佩奇。
@@ -57,6 +51,7 @@ BigTable出现在类似的场景。和MapReduce一样，它运行了GFS之上，
 
 “当你的工作是接管整个英特网，建立索引，做一份拷贝---当然并不是拷贝一份和Internet同样大小的那样直接的方式来做----你会怎么做？ 这是个很有趣的技术挑战”， Jason Hoffman（Joyent云计算部门的首席技术官）说到， “挥舞锤子的人知道如何造一个锤子。 大多数创新来自于（之前有过的）做事的经验中， 来自你面临失败的那些地方”
 
+---------------------------------------
 
 ### Crème Brûlée打造的数据中心帝国 ###
 
@@ -84,37 +79,42 @@ Google的第一个新数据中心在Oregon的Dalles， 一个能提供廉价电�
 “为了提供更高水平的英特网服务性能， 这些数据中心里的大部分软硬件资源必须紧密联系在一起协同工作。这个目标只能通过从全局整体来设计并部署才能实现。” Barroso和Hölzle 在他们2009年出版的一本很有影响力的、标题叫做“数据中心式的电脑” 一书中写到，“换句话说，我们必须把数据中心整体当做一个数据仓库式的电脑（来使用）”。
 
 
-他们用新型的组件来设计了这种数据中心。紧密放置的服务器，网络设备，以及其他硬件设备被装进标准化的方便运输的装置内 ---- 和陆运及海运运输货物的同样的装置。  这些数据中心模块可以被拼接成一个大的多的计算设备。 这么做的目的是最大化每个模块的工作效率。很明显，这个概念来自于拉里佩奇在2003年看到的Internet Achieve做的一个关于他们的关于类似模块的设想的汇报---即使Barroso不记得这个想法从何而来。“反正不是我”， 他说到。
+他们用新型的组件来设计了这种数据中心。紧密放置的服务器，网络设备，以及其他硬件设备被装进标准化的方便运输的装置内 ---- 和陆运及海运运输货物的同样的装置。  这些数据中心模块可以被拼接成一个大的多的计算设备。 这么做的目的是最大化每个模块的工作效率。很明显，这个概念来自于拉里佩奇在2003年看到的Internet Achieve做的一个关于他们的关于类似模块的设想的[汇报](http://www.baumgart.org/petabytebox.pdf)---即使Barroso不记得这个想法从何而来。“反正不是我”， 他说到。
 
-公司在Delles的数据中心2005年投入使用。这几年来，关于Google的数据中心模块和定制服务器的传言满天飞， 但是细节直到2009年Google在硅谷总部举行的一次小型会议上才揭开。 在数据中心里， Google不满足于仅仅创新。它保持极度的创新欲望直到已经足够好并且能够和世界上其他的（公司）分享。
+公司在Delles的数据中心2005年投入使用。这几年来，关于Google的数据中心模块和定制服务器的传言满天飞， 但是细节直到2009年Google在硅谷总部举行的一次小型会议上才[揭开](http://news.cnet.com/8301-1001_3-10209580-92.html)。 在数据中心里， Google不满足于仅仅创新。它保持极度的创新欲望直到已经足够好并且能够和世界上其他的（公司）分享。
 
+---------------------------------------
 
 ### 特斯拉现象  ###
 
-拉里佩奇特别崇拜Nikola Tesla。 根据Steven Levy的那本讲述Google背后故事的书---In The Plex介绍，  佩奇认为Tesla作为一个发明家和爱迪生不分上下，但是令人惋惜的是他缺乏将发明创造转化为盈利的能力以及得到长期认可的能力。
+拉里佩奇特别崇拜Nikola Tesla。 根据Steven Levy的那本讲述Google背后故事的书---[In The Plex](http://books.google.com/books?id=V1u1f8sv3k8C&pg=PA197&lpg=PA197&dq=barroso+%22western+research+lab%22&source=bl&ots=BRqOaugkhF&sig=BLNj8Nxie2rWOUwqwgpxfDmyDdY&hl=en&sa=X&ei=ysAWUP_jPMr26gH79IHADA&ved=0CE8Q6AEwBQ#v=onepage&q=barroso%20%22western%20research%20lab%22&f=false)介绍，  佩奇认为Tesla作为一个发明家和爱迪生不分上下，但是令人惋惜的是他缺乏将发明创造转化为盈利的能力以及得到长期认可的能力。
 
 
 Nicola Tesla的境遇警示Google如何对待它的核心技术。 它把它们视为商业机密。 跟苹果公司一样，Google在保密方面很有一套。但是另一方面，当一项技术在Google服务好几年后， Google就会将它披露出来。“在不放弃我们的竞争优势的前提下，我们会尽量做到开放”， Hölzle说。“我们会（跟别人）沟通想法， 但是不会公开实现方式的细节”。
 
 
-2003和2004年，Google发表了GFS和MapReduce的论文。 Google的论文对这些系统本身做了很好地说明。不久之后，一个叫做Doug Cutting的开发者就利用（这些论文的思想）， 为他称做Nutch的一款开源搜索引擎构建了索引系统。Cutting加盟当时的Google搜索的竞争对手雅虎之后，这个项目演变为Hadoop。
+2003和2004年，Google发表了[GFS](http://research.google.com/archive/gfs.html)和[MapReduce](http://research.google.com/archive/mapreduce.html)的论文。 Google的论文对这些系统本身做了很好地说明。不久之后，一个叫做Doug Cutting的开发者就利用（这些论文的思想）， 为他称做Nutch的一款开源搜索引擎构建了索引系统。Cutting加盟当时的Google搜索的竞争对手雅虎之后，这个项目[演变为Hadoop](http://www.wired.com/wiredenterprise/2011/10/how-yahoo-spawned-hadoop/)。
 
 
-作为能够驱动上千台服务器来处理史诗般壮丽、罕见数量的数据的Hadoop， 被包括Facebook、Twitter、 微软等很多其他互联网巨头所采用。现在Hadoop已经逐渐发展到其他的商业领域。根据IDC的研究表明，到2016年，Hadoop项目将会创造813个million美元价值的软件市场。
+作为能够驱动上千台服务器来处理史诗般壮丽、罕见数量的数据的Hadoop， 被包括Facebook、Twitter、 微软等很多其他互联网巨头所采用。现在Hadoop已经逐渐发展到其他的商业领域。根据[IDC的研究](http://gigaom.com/cloud/all-aboard-the-hadoop-money-train/)，到2016年，Hadoop项目将会创造813个million美元价值的软件市场。
 
 历史又在BigTable身上重演。Google在2006年发表了关于它的sweeping database（如何翻译sweeping database ？）的论文，以及Amazon的一篇描述名为Dynamo的数据库存储的论文，拉开了轰轰烈烈的在成千上万台机器上扩展运行的NoSQL运动的序幕。
 
 “如果你自己观察各种NoSQL的方案，所有的都可以归结到Amazon的Dynamo或者Google的BigTable的论文思想里”， Joyent的Jason Hoffman说，“如果Google或者Amazon没有发表出这两篇学术论文，这个世界将会是怎么样的另一番景象”。
 
 
-Google的硬件部门是完完全全不同的另一番故事。我们对于Google的数据中心内部依然所知甚少，但是公司在设计及构建这方面东西的努力同时也影响了了互联网上的其他公司（这一句翻译的不好， 原文是：but the company’s efforts to design and build its own gear has undoubtedly inspired similar efforts across the web and beyond）。 Facebook在亚洲生产厂商的协助下正在设计他自己的服务器、服务器机架以及存储设备。根据外部消息，Amazon和微软也在做类似的事情。在开源计算基金会的支持下， Facebook开源了它在服务器方面的设计， 很多其他公司也在探索类似的硬件。
+Google的硬件部门是完完全全不同的另一番故事。我们对于Google的数据中心内部依然所知甚少，但是公司在设计及构建这方面东西的努力同时也影响了了互联网上的其他公司（这一句翻译的不好， 原文是：but the company’s efforts to design and build its own gear has undoubtedly inspired similar efforts across the web and beyond）。 Facebook在亚洲生产厂商的协助下正在[设计它自己的服务器](http://www.wired.com/wiredenterprise/2012/01/facebook-server-lab/)、服务器机架以及存储设备。根据外部消息，Amazon和微软也在做类似的事情。在开源计算基金会的支持下， Facebook开源了它在服务器方面的设计， 很多其他公司也在探索类似的硬件。
 
 
 此外，模块化数据中心是当今Web的支柱。微软用这些， eBay以及其他数不清的公司也在用。Mike Manos， 前微软数据中心领域专家，否认Google是模块化数据中心浪潮的开创者。他指出类似的模块最早可以追溯到1960年左右。但是Google最先借用了这种思路。 Cloudant的Mike Miller指出， GFS和MapReduce的思想也来自于以前（译注：指的是MapReduce的思想来自于函数式编程）。但是Google能够很好地将这些旧的思想应用到解决新的问题中来。 
 
+![The building that once housed DEC’s Systems Research Center. It’s now home to an Amazon.com research operation called A9. Photo: Ariel Zambelich/Wired](http://ww3.sinaimg.cn/large/a74e55b4jw1e3bmc5gum6j.jpg)
+
+---------------------------------------
+
 ### Google的过去仅仅是拉开序幕 ###
 
-具有讽刺意味的是， Google差不多已经在内部替代了这些技术。过去几年，Google用一个叫做“Colossus”的新平台替代了GFS， 并且用了一个叫做Caffeine的新系统来构建索引。Caffeine系统包含部分MapReduce，但是使用实时构建索引而不是（隔段时间）从头开始重新构建这样一种完全不同的方式来运作。
+具有讽刺意味的是， Google差不多已经在内部替代了这些技术。过去几年，Google用一个叫做[“Colossus”的](http://www.wired.com/wiredenterprise/2012/07/google-colossus/)新平台替代了GFS， 并且用了一个叫做[Caffeine](http://www.wired.com/wiredenterprise/2012/03/microsoft-bing-v-google/)的新系统来构建索引。Caffeine系统包含部分MapReduce，但是使用实时构建索引而不是（隔段时间）从头开始重新构建这样一种完全不同的方式来运作。
 
 
 Google或许会一直用其在Dalles的数据中心，但是在新的数据中心里，它不再扮演重要角色了。我们对Google现在在它高度机密的数据中心里使用的技术所知甚少， 但是你可以从它过往的所作所为来推测现在。
@@ -122,7 +122,7 @@ Google或许会一直用其在Dalles的数据中心，但是在新的数据中�
 
 最近几年，Google发表了关于Caffeine以及两个其他的软件平台：Pregal这个从数据分片中映射（图结构）关系的图数据库； 以及能在超大量的数据中快速分析数据的Dremel。好几个开源项目正在试图实现Pregel。至少有一个正在克隆Dremel. Cloudant的Miller如此评价Caffeine：它改变了Hadoo和NoSQL的市场。
 
-这些仅仅是一些在Google内部得到应用的最新发明。毫无疑问，还有更多我们不知道的东西。但是不管现在Google在用什么，它一定会很快的迭代前进。去年五月，加州大学伯克利分校的教授Eric Brewer声明他加入了Google的构建Google下一代基础设施架构的团队。“云还很年轻”， 他说，“有很多东西可做，很多目标可以实现”。
+这些仅仅是一些在Google内部得到应用的最新发明。毫无疑问，还有更多我们不知道的东西。但是不管现在Google在用什么，它一定会很快的迭代前进。去年五月，加州大学伯克利分校的教授Eric Brewer[声明](https://twitter.com/eric_brewer/status/68051541063503872)他加入了Google的构建Google下一代基础设施架构的团队。“云还很年轻”， 他说，“有很多东西可做，很多目标可以实现”。
 
 
 作为分布式计算研究领域的巨人，Brewer是Google作为Xerox PARC现在继任者的又一个标志。但是Google将PARC的精神又发扬了一大步。
