@@ -30,7 +30,7 @@ tags: [Google, Jeff Dean]
 
 “光在真空中的传播速度曾经是35英里/时”， 另一条写到， “于是Jeff Dean花了一个周末来优化物理学“
 
-  不， 这些“真相”比不是事实。 但是他们听上去很真实。 愚人节在gogle是一个神圣的节日， 像所有的愚人节笑话一样，插科打诨总是围绕着事实周围。 一个叫Kenton Varda的Google员工建立了这个网站，playing off the satirical Chuck Norris facts that so often bounce around the net（ 这句话实在不知道咋翻译）。 当他把链接通过邮件发给公司其他人的时候，他隐藏了自己的踪迹。但是一会他就收到了Jeff Dean的提示消息，Jeff已经从Google的服务器日志里找到了他留下的电子足迹，从而追踪到他。
+  不， 这些“真相”比不是事实。 但是他们听上去很真实。 愚人节在Google是一个神圣的节日， 像所有的愚人节笑话一样，插科打诨总是围绕着事实周围。 一个叫Kenton Varda的Google员工建立了这个网站，playing off the satirical Chuck Norris facts that so often bounce around the net（ 这句话实在不知道咋翻译）。 当他把链接通过邮件发给公司其他人的时候，他隐藏了自己的踪迹。但是一会他就收到了Jeff Dean的提示消息，Jeff已经从Google的服务器日志里找到了他留下的电子足迹，从而追踪到他。
 
   在Google内部，Jeff Dean被认为是威严的。 在公司外部， 很少有人听过他的名字。 但是他们应该知道。 Dean是Google构建起基础软硬件架构一个工程师小组一员， 这些架构使Google为web上有统治力的公司， 他们的发明创造酷似网上其他如雷贯耳的名字。
 
