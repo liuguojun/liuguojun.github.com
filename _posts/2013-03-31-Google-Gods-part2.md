@@ -63,7 +63,7 @@ Barroso在DEC的西部研究所和Dean一起工作。2001年，他在Google和Vm
 
 然后他跟Dean作了交流。Dean提醒他是否把Google的行政主厨Charlie Ayers提供的焦糖布丁考虑在内。 “焦糖布丁是他的最爱”， Dean还记得。 “我问他是否考虑（焦糖布丁）在这122条理由之内， 他说， '没有！我忘记了！'”。 第二天Varroso就接受了Google的工作Offer。
 
-Barroso不同寻常之处在于，他不是一个纯粹的软件工程师。在DEC工作时， 他帮忙开发多核处理器---真正的在1颗CPU上的有多个处理器。 但是当Barroso在Google的软件部门工作的时候， Hölzle让他去负责Google的硬件部门的大整修，不仅仅包括服务器和其他计算设备，还有和数据中心相关所有硬件设备。“对于一个硬件造的人来说，我是我们这伙人里最接近它的”， Barroso回忆道（此处原文是：I was the closest thing we had to a hardware person）。
+Barroso不同寻常之处在于，他不是一个纯粹的软件工程师。在DEC工作时， 他帮忙开发多核处理器---真正的在1颗CPU上的有多个处理器。 但是当Barroso在Google的软件部门工作的时候， Hölzle让他去负责Google的硬件部门的大整修，不仅仅包括服务器和其他计算设备，还有和数据中心相关所有硬件设备。“我是这伙人里技能最接近硬件工程师的人”， Barroso回忆道（此处原文是：I was the closest thing we had to a hardware person）。
 
 Hölzle, Barroso 以及他们的“平台团队” 开始重新思考公司的服务器。2003年， 不再跟往常一样从DELL、HP这些公司采购常规服务器，这个团队开始降低成本， 设计自己的服务器，并且联系同样为DELL和HP这些公司提供产能的亚洲的的工厂来生产。简而言之，Google减少了中间供应商。
 
