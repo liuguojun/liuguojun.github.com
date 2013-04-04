@@ -20,7 +20,7 @@ SSH是我们常用的远程连接管理*nix服务器的居家旅行必备利器�
 
 语法格式
 
-*ssh -L [bind_addr]:port:host:hostport  user@server*
+    ssh -L [bind_addr]:port:host:hostport  user@server
 
 （其中如果bind_addr不指定的话，默认是localhost）
 
@@ -34,7 +34,7 @@ SSH是我们常用的远程连接管理*nix服务器的居家旅行必备利器�
 
 假设海外的VPS的ip是x.x.x.x, 那么你可以将海外的父Squid监听 127.0.0.1:3128, 然后做一个本地端口转发  
 
-**ssh -L 3129:127.0.0.1:3128   user@x.x.x.x**
+    ssh -L 3129:127.0.0.1:3128   user@x.x.x.x
 
 那么这时候连接本地机器的3129端口，就相当于加密后连接父Squid。
 
@@ -47,7 +47,7 @@ SSH是我们常用的远程连接管理*nix服务器的居家旅行必备利器�
 
 语法格式
 
-*ssh -R [bind_addr]:port:host:hostport  user@server*
+    ssh -R [bind_addr]:port:host:hostport  user@server
 
 含义是：将server的port端口流量（通过client）转发到host机器的hostport。
 
@@ -55,7 +55,7 @@ SSH是我们常用的远程连接管理*nix服务器的居家旅行必备利器�
 
 设想这么一个场景：你在公司开发机是内网ip：10.x.x.x , 公司服务器有个公网ip: y.y.y.y,   回家之后你想连接公司的开发机。 那么你可以（回家之前在开发机上）做一个远程转发 
 
-**ssh  -R   port:10.x.x.x:hostport    user@y.y.y.y **   
+    ssh  -R   port:10.x.x.x:hostport    user@y.y.y.y    
 
 这样你连接 y.y.y.y:port时就相当于访问内网10.x.x.x:hostport 了。  
 
@@ -70,7 +70,7 @@ SSH是我们常用的远程连接管理*nix服务器的居家旅行必备利器�
 
 语法格式是
 
-*ssh -D [bind_addr]:port  user@server*
+    ssh -D [bind_addr]:port  user@server
 
 这样将在 [bind_addr]:port 监听请求（这个是本机的地址和端口）， 对于不同类型的请求过来，都将会被加密发到server机器上，调用对应的服务来执行：该是ftp的走ftp协议，该是HTTP的走HTTP协议。 这也就是常见的socks代理。
 
