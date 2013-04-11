@@ -60,7 +60,7 @@ cache_alignment : 64
 address sizes   : 40 bits physical, 48 bits virtual
 {% endhighlight %}
 
-+ 网络入口速度
++ 网络入口速度(应该是百兆网口)
 {% highlight bash linenos %}
 $ wget http://cachefly.cachefly.net/100mb.test
 --2013-04-11 13:46:24--  http://cachefly.cachefly.net/100mb.test
@@ -74,4 +74,25 @@ Saving to: `100mb.test'
 
 2013-04-11 13:46:36 (8.82 MB/s) - `100mb.test' saved [104857600/104857600]
 {% endhighlight %}
+
++ 磁盘IO（可以看到做了raid，还是很强的）
+{% highlight bash linenos %}
+$ dd if=/dev/zero of=test bs=64k count=4k oflag=dsync
+4096+0 records in
+4096+0 records out
+268435456 bytes (268 MB) copied, 1.61833 s, 166 MB/s
+
+$ dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync
+16384+0 records in
+16384+0 records out
+1073741824 bytes (1.1 GB) copied, 18.186 s, 59.0 MB/s
+{% endhighlight %}
+
+
++ 后台操作界面
+
+
+
++ 数据中心
+
 
