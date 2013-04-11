@@ -29,31 +29,49 @@ vr.org官方默认页面是英文，不过，他们有中文界面，专为中�
 
 + CPU 信息
 
-    processor   : 0
-    vendor_id   : GenuineIntel
-    cpu family  : 6
-    model       : 44
-    model name  : Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz
-    stepping    : 2
-    microcode   : 0x15
-    cpu MHz     : 2400.084
-    cache size  : 12288 KB
-    physical id : 0
-    siblings    : 2
-    core id     : 0
-    cpu cores   : 1
-    apicid      : 0
-    initial apicid  : 18
-    fdiv_bug    : no
-    hlt_bug     : no
-    f00f_bug    : no
-    coma_bug    : no
-    fpu     : yes
-    fpu_exception   : yes
-    cpuid level : 11
-    wp      : yes
-    flags       : fpu de tsc msr pae cx8 sep cmov pat clflush mmx fxsr sse sse2 ss ht nx constant_tsc nonstop_tsc pni ssse3 pcid sse4_1 sse4_2 popcnt hypervisor
-    bogomips    : 4800.16
-    clflush size    : 64
-    cache_alignment : 64
-    address sizes   : 40 bits physical, 48 bits virtual
+{% highlight console linenos %}
+processor   : 0
+vendor_id   : GenuineIntel
+cpu family  : 6
+model   : 44
+model name  : Intel(R) Xeon(R) CPU   E5620  @ 2.40GHz
+stepping: 2
+microcode   : 0x15
+cpu MHz : 2400.084
+cache size  : 12288 KB
+physical id : 0
+siblings: 2
+core id : 0
+cpu cores   : 1
+apicid  : 0
+initial apicid  : 18
+fdiv_bug: no
+hlt_bug : no
+f00f_bug: no
+coma_bug: no
+fpu : yes
+fpu_exception   : yes
+cpuid level : 11
+wp  : yes
+flags   : fpu de tsc msr pae cx8 sep cmov pat clflush mmx fxsr sse sse2 ss ht nx constant_tsc nonstop_tsc pni ssse3 pcid sse4_1 sse4_2 popcnt hypervisor
+bogomips: 4800.16
+clflush size: 64
+cache_alignment : 64
+address sizes   : 40 bits physical, 48 bits virtual
+{% endhighlight %}
+
++ 网络入口速度
+{% highlight bash linenos %}
+$ wget http://cachefly.cachefly.net/100mb.test
+--2013-04-11 13:46:24--  http://cachefly.cachefly.net/100mb.test
+Resolving cachefly.cachefly.net (cachefly.cachefly.net)... 204.93.150.151
+Connecting to cachefly.cachefly.net (cachefly.cachefly.net)|204.93.150.151|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 104857600 (100M) [application/octet-stream]
+Saving to: `100mb.test'
+
+100%[=====================================>] 104,857,600 8.15M/s   in 11s     
+
+2013-04-11 13:46:36 (8.82 MB/s) - `100mb.test' saved [104857600/104857600]
+{% endhighlight %}
+
