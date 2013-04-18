@@ -6,11 +6,14 @@ tags: [翻译, HighScalability, Scale, Pinterest]
 ---
 --------------------------------------------------------
 
-注：网上找到个同名的ppt，下载地址在[这里](http://pan.baidu.com/share/link?shareid=422881&uk=304492695)
+注1： 原文[地址](http://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html)
 
+注2：网上找到个同名的ppt，下载地址在[这里](http://pan.baidu.com/share/link?shareid=422881&uk=304492695)
 
+注3：有些实在不好翻译的地方都给出了原文
 ----------------------------------------------------------
 
+![](http://ww2.sinaimg.cn/large/a74ecc4cjw1e3tkmf5f5nj206o03ngln.jpg)
 
 Pinterest经历了每一个半月翻一番的指数级增长。在过去的两年里，他们经历了从0开始到每个月数十亿的PV（page view），员工数从开始时的两个创始人和一个工程师到超过40个工程师，从仅仅一台MySQL服务器到多达180台Web服务器、240台API引擎、88个MySQL数据库（EC2的cc2.8xlarge实例）+ 每台DB一个从库（slave）， 110台Redis实例服务，以及200台的Memcache实例。
 
@@ -43,7 +46,7 @@ Pinterest经历了每一个半月翻一番的指数级增长。在过去的两�
 
 ## 2010年三月上线 --- 发现自我的时期
 
-那时候连在做什么产品都没弄明白。他们有点子，所以不断的快速迭代和尝试。最终数据库里多了很多现实生活中根本不会有的奇怪的MySQL短查询。
+那时候连在做什么产品都没弄明白。他们有点子，所以不断的快速迭代和尝试。最终y以数据库里多了很多现实生活中根本不会有的奇怪的MySQL短查询而结束。
 
 早期的一些数字：
 
@@ -79,11 +82,11 @@ Pinterest经历了每一个半月翻一番的指数级增长。在过去的两�
 
 ## 直到2011年九月 - 实验期
 
-每一个半月翻倍的疯狂发展期。非常疯狂。
+每一个半月翻倍的疯狂发展期。
 
 * 当你以如此快的速度增长的时候，所有的东西可能在每个星期的午夜里宕掉。
 
-* 这时候你会读很多那些宣称只要增加相同的组件（就能解决问题）的论文。所以你照做了，使用很多的技术。很不幸都失败了。
+* 这时候你会读很多那些宣称只要增加相同的组件（就能解决问题）的论文。照做了，使用很多的技术。很不幸都失败了。
 
 * 因此你会看到一个非常复杂的架构：
 
@@ -116,7 +119,7 @@ Pinterest经历了每一个半月翻一番的指数级增长。在过去的两�
 
 * 当你把一些东西逼到极限的时候，所有的技术都会以他们自己的方式失败。
 
-* 扔掉技术来问问自己究竟想要什么。为所有的东西做重新设计架构。
+* 扔掉技术来思考他们究竟能做什么。为每件事情重新设计架构。
 
 --------------------------------------------------------------------
 
@@ -571,38 +574,13 @@ SELECT body FROM pins WHERE id IN (pin_ids)
 
 --------------------------------------------------------------------
 
-Future Directions
-
-Service based architecture.
-
-As they are starting to see a lot of database load they start to spawn a lot of app servers and a bunch of other servers. All these servers connect to MySQL and memcache. This means there are 30K connections on memcache which takes up a couple of gig of RAM and causes the memcache daemons to swap.
-
-As a fix these are moving to a service architecture. There’s a follower service, for example, that will only answer follower queries. This isolates the number of machines to 30 that access the database and cache, thus reducing the number of connections.
-
-Helps isolate functionality. Helps organize teams around around services and support for those services. Helps with security as developer can’t access other services.
-
-
 ## 未来的方向
 
 * 基于服务的架构
 
-  * 
-  *
-  * 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  * 开始时他们有一堆APP服务器以及一堆其他服务器都连到MySQL和memcache上。结果memcache上有30K个连接，耗费了2G内存，导致了memcache daemon进程被swap到磁盘。  
+  * 因此他们修复了这个设计，改用面向服务的架构。举例来说，Pinterest有一个follower服务，只响应用户有哪些follower的请求。这么做使得访问MySQL和memcache的机器数量减少到30台，减少了连接的数量
+  *  将功能进行隔离。围绕服务组建团队，并且为服务提供支持。给不能访问其他业务的开发者提供安全性支持。
 
 --------------------------------------------------------------------
 
