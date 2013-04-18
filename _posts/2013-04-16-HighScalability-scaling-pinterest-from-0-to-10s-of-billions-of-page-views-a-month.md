@@ -11,13 +11,15 @@ tags: [翻译, HighScalability, Scale, Pinterest]
 注2：网上找到个同名的ppt，下载地址在[这里](http://pan.baidu.com/share/link?shareid=422881&uk=304492695)
 
 注3：有些实在不好翻译的地方都给出了原文
+
 ----------------------------------------------------------
+
 
 ![](http://ww2.sinaimg.cn/large/a74ecc4cjw1e3tkmf5f5nj206o03ngln.jpg)
 
 Pinterest经历了每一个半月翻一番的指数级增长。在过去的两年里，他们经历了从0开始到每个月数十亿的PV（page view），员工数从开始时的两个创始人和一个工程师到超过40个工程师，从仅仅一台MySQL服务器到多达180台Web服务器、240台API引擎、88个MySQL数据库（EC2的cc2.8xlarge实例）+ 每台DB一个从库（slave）， 110台Redis实例服务，以及200台的Memcache实例。
 
-令人叹为观止的增长。想一探Pinterest的传奇吗？Pinterest的[Yashwanth Nelapati]](http://www.linkedin.com/in/yashh) 和 [Marty Weiner](http://pinterest.com/martaaay/)将以 Scaling Pinterest为题讲述关于Pinterest架构的传奇故事。他们说更希望在一年半前的那段飞速发展的时候能看到有人做类似题材演讲，那时的他们有太多（技术上需要）选择的东西。这段过程中他们做了很多错误的选择。
+令人叹为观止的增长。想一探Pinterest的传奇吗？Pinterest的[Yashwanth Nelapati](http://www.linkedin.com/in/yashh) 和 [Marty Weiner](http://pinterest.com/martaaay/)将以 [Scaling Pinterest](http://www.infoq.com/presentations/Pinterest)为题讲述关于Pinterest架构的传奇故事。他们说更希望在一年半前的那段飞速发展的时候能看到有人做类似题材演讲，那时的他们有太多（技术上需要）选择的东西。这段过程中他们做了很多错误的选择。
 
 这是一个充满了令人惊讶的细节的伟大演讲。同时也是个很实用的演讲，归根结底，它带来了可让大家适用的方案。高度推荐！
 
@@ -151,7 +153,7 @@ Pinterest经历了每一个半月翻一番的指数级增长。在过去的两�
 
 ## 2012年10月12 --- 回归期
 
-*（流量）相当于2012年1月的四倍
+* （流量）相当于2012年1月的四倍
 
 * 数字看起来是这样：
 
