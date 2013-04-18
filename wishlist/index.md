@@ -10,4 +10,17 @@ comments: yes
 
 --------------------------------------------------------------
 <!--没有解决Markdown 的链接打开时没有_blank属性-->
-- [键盘：Filco 87白色茶轴侧刻](http://input.yesky.com/465/30158965.shtml) 
+- 键盘：[Filco 87白色茶轴侧刻](http://input.yesky.com/465/30158965.shtml) 
+![](http://ww3.sinaimg.cn/large/a74eed94jw1e3tt5g8d15j20iw0b2dha.jpg)
+![](http://ww2.sinaimg.cn/large/a74e55b4jw1e3tt61luh4j20iw0ingp6.jpg)
+![](http://ww2.sinaimg.cn/large/bfadf3bejw1e3tt6791ojj20p00jbwjs.jpg)
+
+- 鼠标：[罗技Performance MX](http://www.logitech.com/en-us/product/performance-mouse-mx)
+
+![](http://ww3.sinaimg.cn/large/a74ecc4cjw1e3tt81x474j20cn0dwaar.jpg)
+
+- 显示器：[戴尔U2312HM](http://detail.zol.com.cn/lcd/index288658.shtml)
+![](http://c1.neweggimages.com.cn/NeweggPic2/upload/A34-296-2AGd-04.jpg)
+
+- 座椅： [Herman Miller Embody 椅子](http://yedingding.com/2013/04/16/care-yourself-first-programmers.html)
+![](http://ww1.sinaimg.cn/large/a74eed94jw1e3ttb0mj3gj20go0ce3zp.jpg)   
