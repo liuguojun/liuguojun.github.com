@@ -1,8 +1,8 @@
 ---
 layout: post
-title: (译) Google众神 -- If Xerox PARC Invented the PC, Google Invented the Internet Part 2.
-categories: [IT History]
-tags: [Google, Jeff Dean]
+title: 【翻译】 Google众神 -- If Xerox PARC Invented the PC, Google Invented the Internet Part 2.
+categories: [翻译, IT]
+tags: [翻译, Google, Jeff Dean]
 ---
 
 - 原文[地址](http://www.wired.com/wiredenterprise/2012/08/google-as-xerox-parc/all/)
