@@ -8,6 +8,7 @@ tags: [iptables, 端口转发]
 
 最近一段时间折腾iptables的NAT功能，才发现iptables如此神器的东西以前竟然所知甚少。恶补了一下这方面的知识。
 
+---------------------------------------
 ## iptables背景知识简要介绍
 
 * iptables有table, chain, rules 三个概念。
@@ -16,7 +17,7 @@ tags: [iptables, 端口转发]
  
 
 ## iptables的NAT表
-
+---------------------------------------
 * NAT在iptables中的位置图示
 ![](http://ww4.sinaimg.cn/large/a74ecc4cjw1e3ypso4b3tj20dx0760t9.jpg)
 
@@ -32,7 +33,6 @@ tags: [iptables, 端口转发]
     net.ipv4.ip_forward = 1
 
 然后执行
-
 
     sysctl -p 
 
