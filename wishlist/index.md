@@ -10,6 +10,9 @@ comments: yes
 
 --------------------------------------------------------------
 <!--没有解决Markdown 的链接打开时没有_blank属性-->
+- 固态硬盘：[三星840 pro 256G 固态硬盘](http://item.jd.com/809240.html)
+![](http://ww1.sinaimg.cn/large/a74ecc4cjw1e47yhbddbtj20g108f3z9.jpg)
+
 - 键盘：[Filco 87白色茶轴侧刻](http://input.yesky.com/465/30158965.shtml) 
 ![](http://ww3.sinaimg.cn/large/a74eed94jw1e3tt5g8d15j20iw0b2dha.jpg)
 ![](http://ww2.sinaimg.cn/large/a74e55b4jw1e3tt61luh4j20iw0ingp6.jpg)
