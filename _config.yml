@@ -3,5 +3,5 @@ permalink: /:year/:month/:title/
 #url: http://192.168.1.192:8000
 url: http://liugj.com
 author: Guojun Liu
-highlighter: pygments
+highlighter: rouge
 #destination: ./www
