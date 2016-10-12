@@ -1,6 +1,7 @@
-markdown: rdiscount
+markdown: kramdown
 permalink: /:year/:month/:title/
-url: http://www.liugj.com
+#url: http://192.168.1.192:8000
+url: http://liugj.com
 author: Guojun Liu
-pygments: true
-
+highlighter: pygments
+#destination: ./www
