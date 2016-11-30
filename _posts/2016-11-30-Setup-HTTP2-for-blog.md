@@ -16,18 +16,21 @@ HTTP/2的历史可以参见[维基百科](https://zh.wikipedia.org/wiki/%E8%B6%8
 
 下图可以看到不同浏览器从哪个版本开始支持HTTP/2 ![](https://sfault-image.b0.upaiyun.com/399/641/3996415863-583d40caae071_articlex)
 
+<br/>
 
----------------------------------------
+
 ## 简要介绍如何让你的博客支持HTTP/2
+---------------------------------------
 
 本站后台是nginx。nginx从1.9.5开始就支持HTTP/2.
 要求：
 * openssl完全安装
 * HTTP/2强调安全性，采用了https,需要准备一个浏览器信赖的证书，可以用收费的，当然免费的[Let‘s Encrypt](https://letsencrypt.org/) 是我们的最爱。
-* nginx需要开启http_v2_module 和 http_ssl_module，编译的时候注意下
+* nginx需要开启*http_v2_module* 和 *http_ssl_module*，编译nginx的时候注意加下configure选项
 
 
 
+<br/>
 ## nginx 配置的时候需要注意
 ---------------------------------------
 * 把监听在80端口的http请求重定向到443端口的https请求
@@ -55,6 +58,7 @@ server {
 
 
 
+<br/>
 ## 如何验证HTTP/2生效
 ---------------------------------------
 Chrome上插件[HTTP/2 and SPDY indicator](https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin)，蓝色的小图标亮起，就表示该网站使用了 HTTP/2 协议。
